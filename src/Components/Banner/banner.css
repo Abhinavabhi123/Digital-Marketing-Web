@@ -1,0 +1,56 @@
+.sub-text {
+  font-size: 1em;
+  letter-spacing: 0rem;
+  line-height: 1;
+  font-weight: 600;
+  /* letter-spacing: 12px; */
+}
+
+.main-text {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.banner-text-wrapper{
+  text-transform: uppercase;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+  .sub-text {
+    font-size: 2rem;
+  }
+  .main-text {
+    font-size: 4rem;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* .banner-text-wrapper{
+    padding-top: 5rem;
+  } */
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  .sub-text {
+    font-size: 3rem;
+  }
+  .main-text {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sub-text {
+    font-size: 3.5rem;
+  }
+  .main-text {
+    font-size: 7rem;
+  }
+}
