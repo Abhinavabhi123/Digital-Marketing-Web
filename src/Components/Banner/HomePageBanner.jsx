@@ -53,12 +53,10 @@ export default function HomePageBanner() {
               ></video>
             </div>
             <div className="z-[10] absolute w-full h-full flex flex-col justify-center items-center top-1/2 -translate-y-[50%] bg-transparent ">
-              <div className="w-fit space-y-4 md:space-y-8 uppercase banner-text-wrapper bg-transparent">
-                <h1 className=" sub-text text-animate-character">Elevate Your Brand</h1>
-                <h1 className="main-text text-animate-character">with Expert </h1>
-                <h1 className="sub-text text-animate-character">
-                  Digital Marketing <br />
-                </h1>
+              <div className="w-fit space-y-4 md:space-y-8 uppercase banner-text-wrapper bg-transparent" data-aos="fade-up">
+                <h1 className=" sub-text text-animate-character" data-aos="fade-up">Elevate Your Brand</h1>
+                <h1 className="main-text text-animate-character" >with Expert </h1>
+                <h1 className="sub-text text-animate-character" >Digital Marketing</h1>
               </div>
             </div>
           </div>
