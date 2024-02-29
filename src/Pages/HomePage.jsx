@@ -5,6 +5,7 @@ export default function HomePage() {
     <div className="w-full min-h-[100vh] bg-bg-color rounded-3xl ">
       <Header />
       <HomePageBanner />
+  
     </div>
   );
 }
