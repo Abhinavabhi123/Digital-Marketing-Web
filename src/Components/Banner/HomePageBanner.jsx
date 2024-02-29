@@ -13,7 +13,7 @@ export default function HomePageBanner() {
       <div className="w-full h-full flex  flex-col-reverse md:flex-row ">
         {/* Banner left side */}
         <div className="h-fit  bg-red-   items-center flex flex-col  social-icons transition-all duration-700">
-          <div className="flex md:flex-col gap-10 ">
+          <div className="flex md:flex-col gap-4 md:gap-10 ">
             <div className="size-10 group/instagram  gap-1 flex justify-end items-center">
               <div className="w-[5px] h-0 rounded-md group-hover/instagram:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
               <FaInstagram className="cursor-pointer  text-xl md:text-3xl social_media_icon relative" />
@@ -54,9 +54,9 @@ export default function HomePageBanner() {
             </div>
             <div className="z-[10] absolute w-full h-full flex flex-col justify-center items-center top-1/2 -translate-y-[50%] bg-transparent ">
               <div className="w-fit space-y-4 md:space-y-8 uppercase banner-text-wrapper bg-transparent">
-                <h1 className=" sub-text">Elevate Your Brand</h1>
-                <h1 className="main-text">with Expert </h1>
-                <h1 className="sub-text">
+                <h1 className=" sub-text text-animate-character">Elevate Your Brand</h1>
+                <h1 className="main-text text-animate-character">with Expert </h1>
+                <h1 className="sub-text text-animate-character">
                   Digital Marketing <br />
                 </h1>
               </div>
