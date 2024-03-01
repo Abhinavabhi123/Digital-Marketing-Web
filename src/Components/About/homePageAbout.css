@@ -1,0 +1,15 @@
+.about-title {
+  /* background: linear-gradient(45deg, #ff00cc, #3333ff);
+  -webkit-background-clip: text;
+  background-clip: text; */
+  color: white;
+  font-weight: 500;
+}
+
+.decoration-div,.about-navigation-btn {
+  background: var(--primary-gradient);
+}
+
+.marketing-image {
+  border-radius: 20px;
+}
