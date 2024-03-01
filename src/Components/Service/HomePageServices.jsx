@@ -1,6 +1,7 @@
 import "./homePageServices.css";
 import Shape from "../../assets/shape.svg";
 import { serviceData } from "../../Constants/constant";
+import Rainbow from "../../assets/Svg/rainbow.svg"
 
 export default function HomePageServices() {
   return (
@@ -10,11 +11,12 @@ export default function HomePageServices() {
         alt="shape image"
         className="absolute w-72 hidden md:block -top-24 -left-[3.2rem] rotate-90 skew-y-12 "
       />
+      <img src={Rainbow} alt="rainbow" className="absolute bottom-0 md:right-0 w-full z-0 opacity-70"  />
       <div className="ps-4 md:ps-20 py-8 space-y-3">
         <h1 className="text-lg md:text-3xl service-title">Services</h1>
         <div className="decoration-div w-36 h-1 rounded-md"></div>
       </div>
-      <div className="w-full h-full bg-transparent flex flex-col md:flex-row">
+      <div className="w-full h-full bg-transparent flex flex-col md:flex-row relative">
         <div className="w-full h-full md:w-1/3 bg-transparent p-4 md:p-16 space-y-10">
           <p
             className="md:tracking-widest md:leading-10 md:text-[20px] font-normal"
