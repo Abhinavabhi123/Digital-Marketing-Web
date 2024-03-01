@@ -2,6 +2,7 @@ import "./header.css";
 import Logo from "../../assets/logo.svg";
 import { useState } from "react";
 import { RiArrowDownSLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,7 +25,9 @@ export default function Header() {
     <div className="w-full h-full flex items-center justify-between px-4 md:px-10 py-5 relative bg-transparent">
       <img src={Logo} alt="logo" className="w-32 md:w-28" />
       <ul className="nav-list text-base gap-5">
-        <li className="nav-link">Home</li>
+        <li className="nav-link">
+          <Link to={"/"}>Home</Link>
+        </li>
         <li className="nav-link group relative">
           Services
           <ul className="nav-animation w-56 h-fit service-list absolute hidden  group-hover:block  bg-black/70 z-50 py-3 top-[1.8rem]">
@@ -60,6 +63,9 @@ export default function Header() {
         <li className="nav-link">PortFolio</li>
         <li className="nav-link">Clients</li>
         <li className="nav-link">Blog</li>
+        <li className="nav-link">
+          <Link to={"/about-us"}>About Us</Link>
+        </li>
         <li className="nav-link">Contact Us</li>
       </ul>
       <label className="hamburger">
@@ -73,20 +79,26 @@ export default function Header() {
         </svg>
       </label>
       {/* Menu open div */}
-      <div
-        className={`menu-dropdown ${menuOpen &&"active"}`}
-      >
+      <div className={`menu-dropdown ${menuOpen && "active"}`}>
         <ul className="w-full h-full bg-transparent flex flex-col items-center gap-4 ">
-          <li className="text-sm">Home</li>
+          <li className="text-sm">
+            <Link to={"/"}>Home</Link>
+          </li>
           <li
             className="text-sm flex items-center gap-2"
             onClick={() => dropdownHandler("services", !dropdown[0].status)}
           >
             Services
             {dropdown[0].name === "services" && dropdown[0].status ? (
-              <RiArrowDownSLine size={20} className="rotate-180 transition-all duration-500"/>
+              <RiArrowDownSLine
+                size={20}
+                className="rotate-180 transition-all duration-500"
+              />
             ) : (
-              <RiArrowDownSLine size={20} className="transition-all duration-500"/>
+              <RiArrowDownSLine
+                size={20}
+                className="transition-all duration-500"
+              />
             )}
           </li>
           <ul
@@ -96,12 +108,24 @@ export default function Header() {
                 : "hidden"
             } flex-col items-center bg-transparent `}
           >
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">SEO</li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">SEM</li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">Branding</li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">Advertising</li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">Photography</li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">Social Media</li>
+            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
+              SEO
+            </li>
+            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
+              SEM
+            </li>
+            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
+              Branding
+            </li>
+            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
+              Advertising
+            </li>
+            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
+              Photography
+            </li>
+            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
+              Social Media
+            </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
               Digital Strategy
             </li>
@@ -125,6 +149,9 @@ export default function Header() {
           <li className="text-sm">PortFolio</li>
           <li className="text-sm">Clients</li>
           <li className="text-sm">Blog</li>
+          <li className="text-sm">
+            <Link to={"/about-us"}>About Us</Link>
+          </li>
           <li className="text-sm">Contact Us</li>
         </ul>
       </div>

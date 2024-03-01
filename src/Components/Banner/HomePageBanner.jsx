@@ -65,7 +65,7 @@ export default function HomePageBanner() {
             </div>
             <div className="z-[10] absolute w-full h-full flex flex-col justify-center items-center top-1/2 -translate-y-[50%] bg-transparent ">
               <div
-                className="w-fit space-y-4 md:space-y-8 uppercase banner-text-wrapper bg-transparent"
+                className="w-fit space-y-4 md:space-y-2 uppercase banner-text-wrapper bg-transparent"
                 data-aos="fade-up"
               >
                 <h1

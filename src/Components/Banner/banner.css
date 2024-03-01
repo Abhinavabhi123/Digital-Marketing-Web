@@ -1,7 +1,7 @@
 .sub-text {
   font-size: 1em;
   letter-spacing: 0rem;
-  line-height: 1;
+  /* line-height: 1; */
   font-weight: 600;
   /* letter-spacing: 12px; */
 }

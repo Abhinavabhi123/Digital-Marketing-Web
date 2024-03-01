@@ -1,0 +1,18 @@
+.about-banner-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("../../assets//Images/About Banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.about-banner-image::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.468);
+  width: 100%;
+  height: 100%;
+}

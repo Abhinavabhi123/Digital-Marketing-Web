@@ -1,5 +1,5 @@
 import "./homePageAbout.css";
-import DigitalMarketingImage from "../../assets/digital-marketing-about-image.jpg";
+import DigitalMarketingImage from "../../assets/Images/digital-marketing-about-image.jpg";
 import Shapes from "../../assets/shape.svg";
 
 export default function HomePageAbout() {
