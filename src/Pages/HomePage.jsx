@@ -1,4 +1,4 @@
-import { ContactFooter, Header, HomePageAbout, HomePageBanner } from "../Components";
+import { ContactFooter, Header, HomePageAbout, HomePageBanner, HomePageServices } from "../Components";
 
 
 export default function HomePage() {
@@ -8,6 +8,7 @@ export default function HomePage() {
       <Header />
       <HomePageBanner />
       <HomePageAbout/>
+      <HomePageServices/>
       <ContactFooter />
     </div>
   );

@@ -24,7 +24,7 @@ export default function HomePageAbout() {
           </p>
           <div className="flex justify-center ">
             <button
-              className="bg-yellow-500 md:text-xl px-5 py-1 rounded-full about-navigation-btn"
+              className="md:text-xl px-5 py-1 rounded-full about-navigation-btn"
               data-aos="fade-up-right"
               data-aos-delay="50"
             >

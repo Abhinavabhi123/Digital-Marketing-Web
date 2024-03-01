@@ -1,0 +1,8 @@
+.service-title{
+    color: white;
+    font-weight: 500;
+}
+
+.service_btn{
+    background: var(--primary-gradient);
+}
