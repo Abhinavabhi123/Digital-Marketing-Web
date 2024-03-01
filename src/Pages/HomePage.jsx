@@ -1,4 +1,4 @@
-import { ContactFooter, Header, HomePageAbout, HomePageBanner, HomePageServices } from "../Components";
+import { ContactFooter, ExperienceCounter, Header, HomePageAbout, HomePageBanner, HomePageServices } from "../Components";
 
 
 export default function HomePage() {
@@ -9,6 +9,7 @@ export default function HomePage() {
       <HomePageBanner />
       <HomePageAbout/>
       <HomePageServices/>
+      <ExperienceCounter/>
       <ContactFooter />
     </div>
   );

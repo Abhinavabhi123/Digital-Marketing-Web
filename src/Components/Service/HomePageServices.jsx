@@ -5,7 +5,7 @@ import Rainbow from "../../assets/Svg/rainbow.svg"
 
 export default function HomePageServices() {
   return (
-    <div className="w-full min-h-[40rem] bg-transparent relative overflow-hidden">
+    <div className="w-full min-h-[40rem] bg-transparent relative overflow-hidden ">
       <img
         src={Shape}
         alt="shape image"
@@ -31,11 +31,12 @@ export default function HomePageServices() {
             <button className="md:text-lg px-5 py-1 rounded-full service_btn">Explore More Services</button>
         </div>
         </div>
+        {/* Card Section */}
         <div className="w-full h-full md:w-2/3 bg-transparent grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-5 p-4">
           {serviceData.map((item, i) => (
             <div
               key={i}
-              className="w-full h-60 md:h-80 bg-black rounded-lg shadow-lg  shadow-gray-700 p-3 overflow-auto space-y-4"
+              className="w-full h-60 md:h-80 bg-black rounded-lg shadow-lg  shadow-gray-700 p-3 overflow-hidden space-y-4"
               data-aos="fade-up"
             >
                 <div className="space-y-4">

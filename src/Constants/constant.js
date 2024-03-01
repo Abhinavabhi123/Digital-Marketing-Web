@@ -1,3 +1,4 @@
+//* service import 
 import SEO from "../assets/Icons/Seo logo.png";
 import ContentMarketing from "../assets/Icons/content-marketing.png"
 import SocialMedia from "../assets/Icons/social-media-marketing.png"
@@ -7,7 +8,12 @@ import Affiliate from "../assets/Icons/affiliate-marketing.png"
 import Influencer from "../assets/Icons/influencer-marketing.png"
 import Analytics from "../assets/Icons/analytics.png"
 import Video from "../assets/Icons/video-ad.png"
+// * Experience import 
+import Experience from "../assets/Icons/Experience.png";
+import Project from "../assets/Icons/project.png";
+import Clients from "../assets/Icons/Clients.png"
 
+// todo: home page services detail card data
 export const serviceData = [
   {
     title: "Search Engine Optimization",
@@ -55,3 +61,24 @@ export const serviceData = [
     content: "Video marketing involves using videos to promote products or services, share information, and connect with audiences",
   },
 ];
+
+
+// todo: home page experience data
+
+export const experienceData=[
+  {
+    title:"Industry Experience",
+    count:20,
+    image:Experience
+  },
+  {
+    title:"Successful Project",
+    count:100,
+    image:Project
+  },
+  {
+    title:"Happy Clients",
+    count:30,
+    image:Clients
+  },
+]

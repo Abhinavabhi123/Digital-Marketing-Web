@@ -55,7 +55,7 @@ export default function HomePageBanner() {
             <div className="w-full h-full flex justify-center items-center">
               <video
                 src="https://d3i7ke5fj3tp7c.cloudfront.net/videos/Cloud+animation_V2.mp4"
-                className="relative w-full h-full z-0 scale-100 mix-blend-screen inset-0 object-contain content-center"
+                className="relative w-full h-full z-0 md:scale-150 mix-blend-screen inset-0 object-contain content-center"
                 autoPlay
                 muted
                 loop
