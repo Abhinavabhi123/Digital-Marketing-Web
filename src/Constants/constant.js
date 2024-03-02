@@ -12,6 +12,13 @@ import Video from "../assets/Icons/video-ad.png"
 import Experience from "../assets/Icons/Experience.png";
 import Project from "../assets/Icons/project.png";
 import Clients from "../assets/Icons/Clients.png"
+// Testimonial data image
+import Testimonial from "../assets/Images/Testimonial/testimonial.jpg"
+import Testimonial1 from "../assets/Images/Testimonial/testimonial1.jpg"
+import Testimonial2 from "../assets/Images/Testimonial/testimonial2.jpg"
+import Testimonial3 from "../assets/Images/Testimonial/testimonial3.jpg"
+// import Testimonial4 from "../assets/Images/Testimonial/testimonial4.jpg"
+// import Testimonial5 from "../assets/Images/Testimonial/testimonial5.jpg"
 
 // todo: home page services detail card data
 export const serviceData = [
@@ -82,3 +89,36 @@ export const experienceData=[
     image:Clients
   },
 ]
+
+export const testimonialData=[
+  {
+    name:"******",
+    image:Testimonial,
+    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    name:"******",
+    image:Testimonial1,
+    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    name:"******",
+    image:Testimonial2,
+    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    name:"******",
+    image:Testimonial3,
+    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  // {
+  //   name:"******",
+  //   image:Testimonial4,
+  //   content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  // },
+  // {
+  //   name:"******",
+  //   image:Testimonial5,
+  //   content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  // },
+] 

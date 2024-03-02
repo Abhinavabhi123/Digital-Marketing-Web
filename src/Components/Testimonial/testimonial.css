@@ -1,0 +1,76 @@
+.text-card{
+    width: 18rem;
+    height: 15rem;
+    transition:0.5s;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background:linear-gradient(270deg, rgba(207, 76, 207, 0.5) 0%, rgba(5, 5, 210, 0.5) 100%);
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.text-card:hover{
+    transition:0.5s;
+    height: 24rem;
+}
+.text-card .imgBx{
+
+    position: absolute;
+    border-radius: 12px;
+    top: 20px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.text-card .imgBX img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
+.text-card:hover .imgBx{
+    top: -70px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0,0.2);
+}
+
+.text-card .content h2{
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.text-card .content{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    top: 189px;
+    overflow: hidden;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.text-card:hover .content{
+    top: 90px;
+    height: 250px;
+}
+
+.card_wrapper .text-card .content a{
+    padding: 0.5rem 1rem;
+    background-color: rgb(5, 5, 100);
+    margin-top: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+}
+
+@media  screen and (max-width:768px) {
+    .card_wrapper{
+        gap:0.5rem ;
+    }
+}

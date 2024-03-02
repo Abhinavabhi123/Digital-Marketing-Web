@@ -1,4 +1,4 @@
-import { ContactFooter, ExperienceCounter, Footer, Header, HomePageAbout, HomePageBanner, HomePageServices } from "../Components";
+import { ContactFooter, ExperienceCounter, Footer, Header, HomePageAbout, HomePageBanner, HomePageServices, Testimonial } from "../Components";
 
 
 export default function HomePage() {
@@ -10,6 +10,8 @@ export default function HomePage() {
       <HomePageAbout/>
       <HomePageServices/>
       <ExperienceCounter/>
+      {/* <Portfolio/> */}
+      <Testimonial/>
       <ContactFooter />
       <Footer/>
     </div>
