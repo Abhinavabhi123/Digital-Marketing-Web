@@ -14,7 +14,7 @@ const SliderComponent = (Props) => {
       </div>
       <div className="content">
         <h2>{name}</h2>
-        <p  className="text-sm md:text-base">{content}</p>
+        <p className="text-sm md:text-base">{content}</p>
         <a href="#">Read More</a>
       </div>
     </div>
@@ -22,9 +22,13 @@ const SliderComponent = (Props) => {
 };
 
 export default function Testimonial() {
-  
   return (
-    <div className="card_wrapper w-full md:min-h-[33rem] h-fit bg-transparent pb-5 flex justify-center md:gap-10 items-center flex-wrap">
+    <div className="w-full">
+      <div className="ps-4 md:ps-20 py-8 space-y-3">
+        <h1 className="text-lg md:text-3xl service-title">Testimonials</h1>
+        <div className="decoration-div w-36 md:w-56 h-1 rounded-md"></div>
+      </div>
+      <div className="card_wrapper w-full md:min-h-[33rem] h-fit bg-transparent pb-5 flex justify-center md:gap-10 items-center flex-wrap">
         {testimonialData.map((item, i) => (
           <SliderComponent
             key={i}
@@ -33,6 +37,7 @@ export default function Testimonial() {
             name={item.name}
           />
         ))}
+      </div>
     </div>
   );
 }
