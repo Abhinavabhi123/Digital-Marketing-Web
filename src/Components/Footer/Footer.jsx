@@ -9,7 +9,7 @@ import FooterBackground from "../../assets/Svg/footer-background.svg"
 
 export default function Footer() {
   return (
-    <div className="w-full min-h-[30rem] bg-transparent">
+    <div className="w-full min-h-[30rem] bg-black/20">
       {/* Top section */}
       <div className="p-5 flex items-center gap-2 border-b border-gray-400/50">
         <img src={Logo} alt="logo" className="w-20 md:w-auto" />
