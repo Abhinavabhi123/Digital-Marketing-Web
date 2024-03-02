@@ -98,7 +98,7 @@ export default function AboutBanner() {
           <div className="h-1 w-48 bg-gradient-to-r from-blue-500 to bg-purple-400 rounded-md"></div>
         </div>
         <div className="w-full h-[80%] bg-transparent flex flex-col md:flex-row flex-wrap">
-        <img src={dots} alt="image" className="absolute hidden md:block right-0 opacity-60" />
+        <img src={dots} alt="image" className="absolute hidden w-1/3 md:block right-0 top-1/2 -translate-y-1/2 opacity-60" />
           <div className="w-full h-full md:w-1/2 bg-transparent px-20 flex justify-center items-center">
             <img src={MarketingMission} alt="image" />
           </div>

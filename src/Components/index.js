@@ -6,4 +6,5 @@ export {default as HomePageAbout} from "./About/HomePageAbout";
 export {default as HomePageServices} from "./Service/HomePageServices";
 export {default as ExperienceCounter} from "./Experience/ExperienceCounter";
 
-export {default as AboutBanner} from "./AboutUs/AboutBanner"
+export {default as AboutBanner} from "./AboutUs/AboutBanner";
+export {default as Footer} from "./Footer/Footer"
