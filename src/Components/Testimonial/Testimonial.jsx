@@ -4,7 +4,7 @@ import { testimonialData } from "../../Constants/constant";
 const SliderComponent = (Props) => {
   const { image, content, name } = Props;
   return (
-    <div className=" text-card mt-20 md:mt-0" data-aos="fade-left">
+    <div className="text-card mt-20 md:mt-0" data-aos="fade-left">
       <div className="imgBx w-56 h-10">
         <img
           src={image}

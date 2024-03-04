@@ -3,6 +3,8 @@ import Shape from "../../assets/shape.svg";
 import { serviceData } from "../../Constants/constant";
 import Rainbow from "../../assets/Svg/rainbow.svg"
 
+
+
 export default function HomePageServices() {
   return (
     <div className="w-full min-h-[40rem] bg-transparent relative overflow-hidden ">
@@ -36,14 +38,14 @@ export default function HomePageServices() {
           {serviceData.map((item, i) => (
             <div
               key={i}
-              className="w-full h-60 md:h-80 bg-black rounded-lg shadow-lg  shadow-gray-700 p-3 overflow-hidden space-y-4"
+              className="w-full h-60 md:h-80 bg-black rounded-lg shadow-lg  shadow-gray-700  overflow-hidden space-y-4"
               data-aos="fade-up"
             >
-                <div className="space-y-4">
-                    <img src={item.image} alt="icon"  className="size-10"/>
+                <div className="space-y-4 bg-gradient-to-r from-blue-500 to-purple-400 p-3">
+                    <img src={item.image} alt="icon"  className="size-10"/>                   
                     <p className="text-sm md:text-lg">{item.title}</p>
                 </div>
-                <div>
+                <div className="p-3">
                     <p className="text-xs md:text-base">{item.content}</p>
                 </div>
             </div>

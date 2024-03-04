@@ -1,7 +1,7 @@
 .text-card{
     width: 18rem;
     height: 15rem;
-    transition:0.5s;
+    transition:all 5s;
     border-radius: 20px;
     display: flex;
     flex-direction: column; 
@@ -13,7 +13,7 @@
 }
 
 .text-card:hover{
-    transition:0.5s;
+    transition: all 5s;
     height: 24rem;
 }
 .text-card .imgBx{
