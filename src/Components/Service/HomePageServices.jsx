@@ -14,7 +14,7 @@ export default function HomePageServices() {
       <img
         src={Rainbow}
         alt="rainbow"
-        className="absolute bottom-0 md:right-0 w-full z-0 opacity-70"
+        className="absolute top-0 md:right-0 w-full z-0 opacity-70"
       />
       <div className="ps-4 md:ps-20 py-8 space-y-3">
         <h1 className="text-lg md:text-3xl service-title">Services</h1>

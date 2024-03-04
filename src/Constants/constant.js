@@ -20,6 +20,13 @@ import Testimonial3 from "../assets/Images/Testimonial/testimonial3.jpg"
 // import Testimonial4 from "../assets/Images/Testimonial/testimonial4.jpg"
 // import Testimonial5 from "../assets/Images/Testimonial/testimonial5.jpg"
 
+// todo:Clients import 
+import  Client1 from '../assets/Images/Clients/Sharjah-Electricity-n-Water-Authority.jpg'
+import  Client2 from '../assets/Images/Clients/RTA-Dubai.jpg'
+import  Client3 from '../assets/Images/Clients/nissan-logo.png'
+import  Client4 from '../assets/Images/Clients/watani-logo.jpg'
+import  Client5 from '../assets/Images/Clients/emirates-logo.png'
+import  Client6 from '../assets/Images/Clients/Air-Arabia-logo.png'
 // todo: home page services detail card data
 export const serviceData = [
   {
@@ -125,3 +132,24 @@ export const testimonialData=[
   //   content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
   // },
 ] 
+
+export const clientData=[
+  {
+    image:Client1
+  },
+  {
+    image:Client2
+  },
+  {
+    image:Client3
+  },
+  {
+    image:Client4
+  },
+  {
+    image:Client5
+  },
+  {
+    image:Client6
+  },
+]
