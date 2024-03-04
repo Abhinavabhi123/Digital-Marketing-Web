@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AboutUsPage, HomePage } from "./Pages";
 
+
 export default function App() {
   
   return (

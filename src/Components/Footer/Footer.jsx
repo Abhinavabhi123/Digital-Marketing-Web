@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="w-full md:w-[30%] h-full bg-yellow-400x ">
           <div className="w-full h-full bg-transparent space-y-3 flex flex-col items-center py-6" data-aos="fade-up">
             <p className="text-xl font-semibold underline">Services</p>
-            <ul className="space-y-2 flex flex-col items-center">
+            <ul className="space-y-2 flex flex-col ">
               <li className="cursor-pointer text-sm md:text-base">Email Marketing</li>
               <li className="cursor-pointer text-sm md:text-base">Content Creation</li>
               <li className="cursor-pointer text-sm md:text-base">SEO</li>
@@ -38,10 +38,11 @@ export default function Footer() {
         <div className="w-full md:w-[30%] h-full bg-transparent ">
           <div className="w-full h-full bg-transparent space-y-3 flex flex-col items-center py-6 " data-aos="fade-up">
             <p className="text-xl font-semibold underline">Locations</p>
-            <ul className="space-y-2 flex flex-col items-center">
-              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Sharjah </p></li>
-              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Saudi Arabia</p></li>
-              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Abu Dhabi</p></li>
+            <ul className="space-y-2 flex flex-col">
+              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">india </p></li>
+              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">UAE</p></li>
+              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Qatar</p></li>
+              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Bahrain</p></li>
             
             </ul>
           </div>
@@ -50,7 +51,7 @@ export default function Footer() {
         <div className="w-full md:w-[30%] h-full bg-transparent ">
           <div className="w-full h-full bg-transparent space-y-3 flex flex-col items-center py-6 " data-aos="fade-up">
             <p className="text-xl font-semibold underline">Support</p>
-            <ul className="space-y-2 flex flex-col items-center">
+            <ul className="space-y-2 flex flex-col">
               <li className="cursor-pointer text-sm md:text-base">Contact Us</li>
               <li className="cursor-pointer text-sm md:text-base">Career</li>
               <li className="cursor-pointer text-sm md:text-base"> Privacy Policy</li>
@@ -66,11 +67,11 @@ export default function Footer() {
         <p className="text-xs text-gray-400 text-center">At [Your Website Name], we prioritize the privacy of our visitors. This Privacy Policy document outlines the types of personal information that is received and collected by [Your Website Name] and how it is used.</p>
       </div>
       <div className="flex justify-center gap-6 py-4">
-        <FaInstagram/>
-        <FaTwitter/>
-        <FaFacebookF/>
-        <FaLinkedinIn/>
-        <FaTiktok/>
+        <FaInstagram className="cursor-pointer"/>
+        <FaTwitter className="cursor-pointer"/>
+        <FaFacebookF className="cursor-pointer"/>
+        <FaLinkedinIn className="cursor-pointer"/>
+        <FaTiktok className="cursor-pointer"/>
       </div>
       <div className="flex justify-center">
         <img src={FooterBackground} alt="image" className="h-12"/>

@@ -10,3 +10,4 @@ export {default as AboutMain} from "./AboutUs/AboutMain";
 export {default as Footer} from "./Footer/Footer";
 export {default as Portfolio} from "./PortFolio/Heromain";
 export {default as Testimonial} from "./Testimonial/Testimonial";
+export {default as AboutDigitalMarketing} from "./About/DigitalMarketing/DigitalMarketing"

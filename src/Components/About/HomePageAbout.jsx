@@ -12,16 +12,25 @@ export default function HomePageAbout() {
       <div className="w-full  h-[80%] flex flex-col md:flex-row">
         <div className="w-full h-full md:w-1/2 bg-transparent p-4 md:p-16 space-y-4 relative">
           <p
-            className="md:tracking-widest md:leading-10 md:text-[20px] font-normal"
+            className="md:tracking-widest md:leading-7 md:text-lg font-normal"
             data-aos="fade-up"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            nostrum recusandae voluptate nam, neque at blanditiis reprehenderit
-            aperiam hic ex minima eveniet sequi sapiente cumque amet dignissimos
-            debitis in veritatis? Repellendus in tenetur saepe labore illo, vel
-            architecto! Laboriosam ipsum pariatur voluptatibus? Ad, cupiditate
-            possimus. Exercitationem, quos necessitatibus. Ipsum, praesentium.
+            Sacrosys has been a leading software development, cyber
+            security and Al integration firm in the Middle East since its
+            inception in 2001. The company has consistently exceeded its own
+            expectations and has helped many organizations in the region become
+            better equipped to meet challenges of a rapidly growing and changing
+            digital landscape.
           </p>
+          <p
+           className="md:tracking-widest md:leading-7 md:text-lg font-normal"
+           data-aos="fade-up">
+            At Sacrosys, we strive to understand changing customer needs, and
+            enrich their quality of life by simply making the technology readily
+            usable for them. We are proud to have solid Information Systems
+            Professionals, who study, design, develop, enhance, customize,
+            implement, maintain and support various aspects of Information
+            Technology.</p>
           <div className="flex justify-center ">
             <button
               className="md:text-xl px-5 py-1 rounded-full about-navigation-btn"

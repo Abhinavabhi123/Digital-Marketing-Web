@@ -3,6 +3,7 @@ import DigitalBulb from "../../assets/Images/digital-bulb.png";
 import Rainbow from "../../assets/Svg/rainbow-1.svg";
 import MarketingVision from "../../assets/Images/marketing-vision.png";
 import MarketingMission from "../../assets/Images/marketing-mission.png";
+import Purpose from "../../assets/Images/purpose.png"
 import dots from "../../assets/Svg/dots.svg";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa6";
 
@@ -16,8 +17,8 @@ export default function AboutBanner() {
           data-aos="fade-up"
         >
           <p className="text-xl md:text-5xl">Unlocking Online Success:</p>
-          <p className="text-xl md:text-5xl"> Meet Our</p>
-          <p className="text-xl md:text-5xl"> Digital Marketing Team</p>
+          <p className="text-xl md:text-5xl"> Creative</p>
+          <p className="text-xl md:text-5xl"> Digital Marketing Partner</p>
           <div className="h-1 w-36 bg-gradient-to-r from-blue-500 to bg-purple-400 rounded-md"></div>
         </div>
       </div>
@@ -34,25 +35,38 @@ export default function AboutBanner() {
           alt="svg image"
           className="absolute hidden md:block -right-20 w-1/3 opacity-80 top-0 "
         />
-        <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 md:px-20 ">
+        <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 md:px-20 md:space-y-4 ">
           <p
-            className="text-sm md:text-base tracking-wide md:leading-7"
+            className="text-sm md:text-lg tracking-wide md:leading-7"
             data-aos="fade-up"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-            earum, corporis architecto consequatur libero modi commodi et, optio
-            deserunt cum perferendis maiores eos incidunt corrupti. Neque nulla
-            saepe dolore cupiditate enim cumque architecto earum officiis
-            commodi illum iste provident sapiente reiciendis porro non
-            blanditiis repellat veritatis amet, iure vel molestiae quos?
-            Officia, voluptatum! Recusandae, esse. Ducimus neque dignissimos
-            eligendi maiores, atque ut repellendus! Quas minus ullam iure
-            molestias amet corporis asperiores rem, optio ipsam expedita maxime
-            quis autem perferendis modi odit neque eum ab deleniti soluta
-            temporibus. Repudiandae fugit, dolores magni autem itaque
-            accusantium voluptates provident sequi velit suscipit vel. eligendi
-            maiores, atque ut repellendus! Quas minus ullam iure molestias amet
-            corporis asperiores rem.
+            <b>Sacrosys</b> has been a leading software development, cyber
+            security and Al integration firm in the Middle East since its
+            inception in 2001. The company has consistently exceeded its own
+            expectations and has helped many organizations in the region become
+            better equipped to meet challenges of a rapidly growing and changing
+            digital landscape.
+          </p>
+          <p
+            className="text-sm md:text-lg tracking-wide md:leading-7"
+            data-aos="fade-up"
+          >
+            At Sacrosys, we strive to understand changing customer needs, and
+            enrich their quality of life by simply making the technology readily
+            usable for them. We are proud to have solid Information Systems
+            Professionals, who study, design, develop, enhance, customize,
+            implement, maintain and support various aspects of Information
+            Technology.
+          </p>
+          <p
+            className="text-sm md:text-lg tracking-wide md:leading-7"
+            data-aos="fade-up"
+          >
+            Our end-to-end expertise and experience in managing the projects
+            right through ideation to fructification the engagements undertaken
+            are a partnership, working with the client to establish an under-
+            standing of the business needs and requirements and providing the
+            best results.
           </p>
         </div>
         <div className="w-full h-full md:w-1/2 bg-transparent z-[1]">
@@ -63,8 +77,33 @@ export default function AboutBanner() {
           />
         </div>
       </div>
+      {/* Purpose */}
+      <div className="w-full min-h-[23rem] bg-transparent relative">
+        <div className="p-6 md:pt-10 md:ps-20  space-y-3">
+          <h1 className="text-lg md:text-3xl font-semibold">Purpose</h1>
+          <div className="h-1 w-36 md:w-48 bg-gradient-to-r from-blue-500 to bg-purple-400 rounded-md"></div>
+        </div>
+        <div className="w-full h-[80%] bg-transparent flex flex-col md:flex-row flex-wrap">
+          <div className="w-full h-full md:w-1/2 bg-transparent px-20 flex justify-center items-center">
+            <img src={Purpose} alt="image" className="w-full md:w-[50%]  object-cover"/>
+          </div>
+          <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 ">
+            <p
+              className="text-sm md:text-lg tracking-wide md:leading-7 relative"
+              data-aos="fade-up"
+            >
+              Sacrosys is committed to revolutionizing the tech industry by
+              providing bespoke software solutions, including web and mobile app
+              development, API integrations, cybersecurity services, and Al
+              innova- tions. Our purpose is to enhance the digital experi- ence
+              for clients, ensuring their sustained success and security in the
+              ever-evolving technological realm.
+            </p>
+          </div>
+        </div>
+      </div>
       {/* Our vision section */}
-      <div className="w-full min-h-[30rem] bg-transparent relative">
+      <div className="w-full min-h-[23rem] bg-transparent relative">
         <div className="p-6 md:pt-10 md:ps-20  space-y-3">
           <h1 className="text-lg md:text-3xl font-semibold">Our Vision</h1>
           <div className="h-1 w-36 md:w-40 bg-gradient-to-r from-blue-500 to bg-purple-400 rounded-md"></div>
@@ -72,17 +111,13 @@ export default function AboutBanner() {
         <div className="w-full h-[80%] bg-transparent flex flex-col md:flex-row">
           <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 md:px-20">
             <p
-              className="text-sm md:text-base tracking-wide md:leading-7"
+              className="text-sm md:text-lg tracking-wide md:leading-7"
               data-aos="fade-up"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              harum sint, repudiandae molestias tempore omnis quia quo quis qui
-              minima, facere blanditiis voluptatum, aut incidunt aspernatur quam
-              enim alias voluptatibus. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Nostrum modi tempore ipsa deleniti aperiam sint
-              enim esse. Consequuntur iste molestias quaerat eligendi, quis
-              voluptas possimus assumenda, aliquid necessitatibus, itaque
-              expedita.
+              Pioneering customized software solutions, Sacrosys envisions
+              becoming the trusted partner for organizations seeking excellence
+              in web applications, mobile apps, API integrations, cybersecurity,
+              and Al.
             </p>
           </div>
           <div className="w-full h-full md:w-1/2 bg-transparent px-20 flex justify-center items-center relative">
@@ -91,7 +126,7 @@ export default function AboutBanner() {
         </div>
       </div>
       {/* Our  mission section */}
-      <div className="w-full min-h-[30rem] bg-transparent relative">
+      <div className="w-full min-h-[23rem] bg-transparent relative">
         <div className="p-6 md:pt-10 md:ps-20  space-y-3">
           <h1 className="text-lg md:text-3xl font-semibold">Our Mission</h1>
           <div className="h-1 w-36 md:w-48 bg-gradient-to-r from-blue-500 to bg-purple-400 rounded-md"></div>
@@ -107,17 +142,14 @@ export default function AboutBanner() {
           </div>
           <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 ">
             <p
-              className="text-sm md:text-base tracking-wide md:leading-7 relative"
+              className="text-sm md:text-lg tracking-wide md:leading-7 relative"
               data-aos="fade-up"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              harum sint, repudiandae molestias tempore omnis quia quo quis qui
-              minima, facere blanditiis voluptatum, aut incidunt aspernatur quam
-              enim alias voluptatibus. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Nostrum modi tempore ipsa deleniti aperiam sint
-              enim esse. Consequuntur iste molestias quaerat eligendi, quis
-              voluptas possimus assumenda, aliquid necessitatibus, itaque
-              expedita.
+              Empowering businesses with tailored software and cutting-edge
+              technology, Sacrosys is dedicated to delivering top-notch
+              consultancy, development, and integration services. We aim to be
+              the go-to solution provider for clients navigating the dynamic
+              digital landscape.
             </p>
           </div>
         </div>
@@ -164,11 +196,11 @@ export default function AboutBanner() {
                 corporis nesciunt libero.
               </p>
             </div>
-            <div className="h-[0.18rem] w-36 bg-violet-400"></div>
-            <div className="flex items-center gap-3" data-aos="fade-up" >
-              <FaFacebookF  className="cursor-pointer hover:text-blue-500"/>  
+            <div className="h-[0.18rem] w-36 bg-violet-400 rounded-md"></div>
+            <div className="flex items-center gap-3" data-aos="fade-up">
+              <FaFacebookF className="cursor-pointer hover:text-blue-500" />
               <FaTwitter className="cursor-pointer hover:text-blue-500" />
-              <FaLinkedinIn  className="cursor-pointer hover:text-blue-500"/>
+              <FaLinkedinIn className="cursor-pointer hover:text-blue-500" />
             </div>
           </div>
         </div>

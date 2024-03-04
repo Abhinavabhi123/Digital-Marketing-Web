@@ -1,5 +1,5 @@
 import { motion, useTransform, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import img1 from "../../assets/Images/1455210_094903-01.jpeg";
 import img2 from "../../assets/Images/1625468.jpg";
 import img3 from "../../assets/Images/Strange.jpg";
@@ -13,28 +13,42 @@ import LampDemo from "./lamp";
 const Example = () => {
   return (
     <div>
+     
       <HorizontalScrollCarousel />
+     
     </div>
   );
 };
 
 const HorizontalScrollCarousel = () => {
   const targetRef = useRef(null);
+  // scrollY,
   const { scrollYProgress } = useScroll({
     target: targetRef,
   });
+  const [isLastCardVisible, setIsLastCardVisible] = useState(false);
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
+  useEffect(() => {
+    if (scrollYProgress.get() === 1) {
+      setIsLastCardVisible(true);
+    }
+  }, [scrollYProgress]);
+
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", isLastCardVisible ? "0%" : "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh]">
-      <LampDemo />
-      <h1 className="text-white font-body font-bold  text-5xl mt-10  text-left fixed pl-10">
-        Portfolio
-      </h1>
+    <section ref={targetRef} className="relative h-[300vh] bg-neutral-950">
+      <LampDemo/>
+      {!isLastCardVisible && (
+        <h1 className="text-white font-body font-bold text-5xl pt-10 sticky top-0 left-0 text-left  pl-28  h-5">
+          Portfolio
+        </h1>
+      )}
 
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-        <motion.div style={{ x }} className="flex gap-4">
+      <div className="sticky top-0 flex h-screen items-center overflow-hidden ">
+
+
+        <motion.div style={{ x }} className="flex gap-6 ">
           {cards.map((card) => {
             return <Card card={card} key={card.id} />;
           })}
@@ -47,23 +61,23 @@ const HorizontalScrollCarousel = () => {
 const Card = (Props) => {
   const { card } = Props;
   return (
-    <PinContainer>
+  <PinContainer>
+    <div
+      key={card.id}
+      className="group relative  h-[350px] w-[250px] overflow-hidden bg-neutral-200"
+    >
       <div
-        key={card.id}
-        className="group relative  h-[350px] w-[250px] overflow-hidden bg-neutral-200"
-      >
-        <div
-          style={{
-            backgroundImage: `url(${card.url})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-          className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
-        ></div>
-        {/* <div className="absolute inset-0 z-10 grid place-content-center">
+        style={{
+          backgroundImage: `url(${card.url})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+        className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
+      ></div>
+      {/* <div className="absolute inset-0 z-10 grid place-content-center">
       
       </div> */}
-      </div>
+    </div>
     </PinContainer>
   );
 };

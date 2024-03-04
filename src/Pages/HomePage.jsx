@@ -1,4 +1,5 @@
 import {
+  AboutDigitalMarketing,
   ContactFooter,
   ExperienceCounter,
   Footer,
@@ -17,6 +18,7 @@ export default function HomePage() {
       <HomePageBanner />
       <HomePageAbout />
       <HomePageServices />
+      <AboutDigitalMarketing/>
       <ExperienceCounter />
       {/* <Portfolio /> */}
       <Testimonial />
