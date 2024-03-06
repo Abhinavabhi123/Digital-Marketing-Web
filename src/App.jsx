@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { AboutUsPage, HomePage } from "./Pages";
+import UserRoute from "./Routes/UserRoutes/UserRoute";
 
 
 export default function App() {
@@ -8,8 +8,7 @@ export default function App() {
     <div className="max-w-[100vw] overflow-hidden p-2 md:p-12">
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/*" element={<UserRoute/>} />
         </Routes>
       </Router>
     </div>

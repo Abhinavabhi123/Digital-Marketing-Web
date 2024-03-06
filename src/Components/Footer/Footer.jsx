@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="w-full h-full bg-transparent space-y-3 flex flex-col items-center py-6 " data-aos="fade-up">
             <p className="text-xl font-semibold underline">Locations</p>
             <ul className="space-y-2 flex flex-col">
-              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">india </p></li>
+              <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">India </p></li>
               <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">UAE</p></li>
               <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Qatar</p></li>
               <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Bahrain</p></li>
@@ -54,8 +54,8 @@ export default function Footer() {
             <ul className="space-y-2 flex flex-col">
               <li className="cursor-pointer text-sm md:text-base">Contact Us</li>
               <li className="cursor-pointer text-sm md:text-base">Career</li>
-              <li className="cursor-pointer text-sm md:text-base"> Privacy Policy</li>
-              <li className="cursor-pointer text-sm md:text-base"> Terms of use</li>
+              <li className="cursor-pointer text-sm md:text-base">Privacy Policy</li>
+              <li className="cursor-pointer text-sm md:text-base">Terms of use</li>
               <li className="cursor-pointer text-sm md:text-base">Blogs</li>
               <li className="cursor-pointer text-sm md:text-base">Portfolio</li>
               <li className="cursor-pointer text-sm md:text-base">Testimonial</li>

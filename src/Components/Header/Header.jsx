@@ -29,17 +29,25 @@ export default function Header() {
           <Link to={"/"}>Home</Link>
         </li>
         <li className="nav-link group relative">
-          Services
+          <Link to={"/services"}>Services</Link>
           <ul className="nav-animation w-56 h-fit service-list absolute hidden  group-hover:block  bg-black/70 z-50 py-3 top-[1.8rem]">
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">SEO</li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">SEM</li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">Branding</li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">Advertising</li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">Photography</li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Social Media
+              <Link to={"/services/seo"}>SEO</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+              Content Marketing
+            </li>
+            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+              Email Marketing
+            </li>
+            <li className="text-sm hover:bg-gray-500 ps-5 py-1">Advertising</li>
+            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+              Affiliate Marketing
+            </li>
+            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+              Social Media Marketing
+            </li>
+            {/* <li className="text-sm hover:bg-gray-500 ps-5 py-1">
               Digital Strategy
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
@@ -56,7 +64,7 @@ export default function Header() {
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
               Community Management
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="nav-link">Awards</li>
@@ -112,21 +120,21 @@ export default function Header() {
               SEO
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              SEM
+              Content Marketing
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              Branding
+              Email Marketing
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
               Advertising
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Photography
+              Affiliate Marketing
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Social Media
+              Social Media Marketing
             </li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
+            {/* <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
               Digital Strategy
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
@@ -143,7 +151,7 @@ export default function Header() {
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
               Community Management
-            </li>
+            </li> */}
           </ul>
           <li className="text-sm">Awards</li>
           <li className="text-sm">PortFolio</li>

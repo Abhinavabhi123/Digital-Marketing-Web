@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const PinContainer = (Props) => {
@@ -47,7 +47,7 @@ const PinContainer = (Props) => {
 };
 
 const PinPerspective = (Props) => {
-  const { title, href } = Props;  
+  const { title, href } = Props;
   return (
     <div className="pointer-events-none  w-80 h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className="w-full h-full -mt-7 flex-none  inset-0">

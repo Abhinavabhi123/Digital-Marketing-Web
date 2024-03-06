@@ -47,7 +47,7 @@ export default function HomePageServices() {
               data-aos="fade-up"
             >
               <div className="space-y-4 bg-gradient-to-r from-blue-500 to-purple-400 p-3">
-                <img src={item.image} alt="icon" className="size-10" />
+                <img src={item.image} alt="icon" className="size-10 animate-bounce  " />
                 <p className="text-sm md:text-lg">{item.title}</p>
               </div>
               <div className="p-3">

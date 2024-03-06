@@ -8,7 +8,12 @@ export {default as ExperienceCounter} from "./Experience/ExperienceCounter";
 
 export {default as AboutMain} from "./AboutUs/AboutMain";
 export {default as Footer} from "./Footer/Footer";
-export {default as Portfolio} from "./PortFolio/Heromain";
+export {default as Portfolio} from "./PortFolio/PortFolio";
 export {default as Testimonial} from "./Testimonial/Testimonial";
 export {default as AboutDigitalMarketing} from "./About/DigitalMarketing/DigitalMarketing";
-export {default as Clients} from "./Experience/Clients"
+export {default as Clients} from "./Experience/Clients";
+
+//* Service routes
+
+export {default as MainService} from "./Service/MainService/MainService";
+export {default as Seo} from "./Service/SeoMarketing/Seo"

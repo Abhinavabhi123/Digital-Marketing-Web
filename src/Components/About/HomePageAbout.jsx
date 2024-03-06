@@ -43,7 +43,7 @@ export default function HomePageAbout() {
           <img src={Shapes} alt="shape" className="absolute w-72 hidden md:block  -bottom-10 -left-20 rotate-45" />
         </div>
         <div className="w-full h-full md:w-1/2 bg-transparent p-4 md:p-10">
-          <div className="w-full h-full bg-transparent relative flex justify-center items-center">
+          <div className="w-full h-full bg-gradient-to-r from-blue-400/50 to-purple-400/50 relative flex justify-center items-center rounded-3xl p-1">
             <img
               src={DigitalMarketingImage}
               alt="digital marketing image"

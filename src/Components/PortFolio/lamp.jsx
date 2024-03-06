@@ -21,7 +21,7 @@ function LampDemo() {
 }
 
 function LampContainer(Props) {
-  const { children, className }=Props;
+  const { children, className } = Props;
   return (
     <div
       className={`absolute flex min-h-96 xs:visible md:visible flex-col w-full items-center justify-left overflow-hidden bg-slate-950  rounded-md z-0 ${className}`}

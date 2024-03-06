@@ -7,10 +7,10 @@ export default function ExperienceCounter() {
   const [view, setView] = useState(false);
   return (
     <div className="w-full min-h-[25rem] bg-transparent mt-5 md:mt-0 md:pb-20 overflow-hidden">
-      <div className="ps-4 md:ps-20 py-8 space-y-3">
-        <h1 className="text-lg md:text-3xl service-title">Experience</h1>
-        <div className="decoration-div w-36 md:w-44 h-1 rounded-md"></div>
-      </div>
+        <div className="ps-4 md:ps-20 py-8 space-y-3">
+          <h1 className="text-lg md:text-3xl service-title">Experience</h1>
+          <div className="decoration-div w-36 md:w-44 h-1 rounded-md"></div>
+        </div>
       <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-5 md:px-10 ">
         {experienceData.map((item, i) => (
           <div

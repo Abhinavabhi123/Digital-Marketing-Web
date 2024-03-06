@@ -1,63 +1,84 @@
-//* service import 
-import SEO from "../assets/Icons/Seo logo.png";
-import ContentMarketing from "../assets/Icons/content-marketing.png"
-import SocialMedia from "../assets/Icons/social-media-marketing.png"
-import Email from "../assets/Icons/email-marketing.png"
-import ADvertisement from "../assets/Icons/content-management.png"
-import Affiliate from "../assets/Icons/affiliate-marketing.png"
+//* service import
+// import SEO from "../assets/Icons/Seo logo.png";
+// import ContentMarketing from "../assets/Icons/content-marketing.png"
+// import SocialMedia from "../assets/Icons/social-media-marketing.png"
+// import Email from "../assets/Icons/email-marketing.png"
+// import ADvertisement from "../assets/Icons/content-management.png"
+import SEO from "../assets/Icons/Search Engine Optimizatic-01.png";
+import ContentMarketing from "../assets/Icons/Content Marketing-01.png";
+import SocialMedia from "../assets/Icons/Social Media Marketing-01.png";
+import Email from "../assets/Icons/Email Marketing-01.png";
+import ADvertisement from "../assets/Icons/Advertising-01.png";
+import Affiliate from "../assets/Icons/Affiliate Marketing-01.png";
+// import Affiliate from "../assets/Icons/affiliate-marketing.png"
 // import Influencer from "../assets/Icons/influencer-marketing.png"
 // import Analytics from "../assets/Icons/analytics.png"
 // import Video from "../assets/Icons/video-ad.png"
-// * Experience import 
+// * Experience import
 import Experience from "../assets/Icons/Experience.png";
 import Project from "../assets/Icons/project.png";
-import Clients from "../assets/Icons/Clients.png"
-// Testimonial data image
-import Testimonial from "../assets/Images/Testimonial/testimonial.jpg"
-import Testimonial1 from "../assets/Images/Testimonial/testimonial1.jpg"
-import Testimonial2 from "../assets/Images/Testimonial/testimonial2.jpg"
-import Testimonial3 from "../assets/Images/Testimonial/testimonial3.jpg"
+import Clients from "../assets/Icons/Clients.png";
+
+//todo Testimonial data image
+import Testimonial from "../assets/Images/Testimonial/testimonial.jpg";
+import Testimonial1 from "../assets/Images/Testimonial/testimonial1.jpg";
+import Testimonial2 from "../assets/Images/Testimonial/testimonial2.jpg";
+import Testimonial3 from "../assets/Images/Testimonial/testimonial3.jpg";
 // import Testimonial4 from "../assets/Images/Testimonial/testimonial4.jpg"
 // import Testimonial5 from "../assets/Images/Testimonial/testimonial5.jpg"
 
-// todo:Clients import 
-import  Client1 from '../assets/Images/Clients/Sharjah-Electricity-n-Water-Authority.jpg'
-import  Client2 from '../assets/Images/Clients/RTA-Dubai.jpg'
-import  Client3 from '../assets/Images/Clients/nissan-logo.png'
-import  Client4 from '../assets/Images/Clients/watani-logo.jpg'
-import  Client5 from '../assets/Images/Clients/emirates-logo.png'
-import  Client6 from '../assets/Images/Clients/Air-Arabia-logo.png'
+// todo:Clients import
+import Client1 from "../assets/Images/Clients/Sharjah-Electricity-n-Water-Authority.jpg";
+import Client2 from "../assets/Images/Clients/RTA-Dubai.jpg";
+import Client3 from "../assets/Images/Clients/nissan-logo.png";
+import Client4 from "../assets/Images/Clients/watani-logo.jpg";
+import Client5 from "../assets/Images/Clients/emirates-logo.png";
+import Client6 from "../assets/Images/Clients/Air-Arabia-logo.png";
+// todo:- Service banner images
+import Banner1 from "../assets/Images/Services/SEO-banner.avif";
+import Banner2 from "../assets/Images/Services/content-marketing-banner.avif";
+import Banner3 from "../assets/Images/Services/email-marketing-banner.avif";
+import Banner4 from "../assets/Images/Services/advertising--banner.avif";
+import Banner5 from "../assets/Images/Services/affiliate-marketing-banner.jpg";
+import Banner6 from "../assets/Images/Services/social-media-marketing-banner.avif";
+
 // todo: home page services detail card data
 export const serviceData = [
   {
     title: "Search Engine Optimization",
     image: SEO,
-    content: 'Search Engine Optimization is the process of getting traffic from the "free" "organic," "editorial" or "natural" search results on search engines',
-  },
-  {
-    title: "Social Media Promotion",
-    image: SocialMedia,
-    content: 'Social media marketing is the use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic',
-  },
-  {
-    title: "Search Engin Marketing",
-    image: Email,
-    content: "Search engine marketing is one of the most effective ways to grow your business in an increasingly competitive marketplace and is an umbrella term for various kinds of paid advertising and paid marketing.",
+    content:
+      "SEO involves optimizing your website to rank higher in search engine results pages (SERPs) for relevant keywords. This is achieved through various techniques like keyword research, content optimization, and link building.",
   },
   {
     title: "Content Marketing",
     image: ContentMarketing,
-    content: "In Content Marketing, instead of pitching your products or services, you are providing truly relevant and useful content to your prospects and customers to help them to select the suitable one for them.",
+    content:
+      "In Content Marketing, instead of pitching your products or services, you are providing truly relevant and useful content to your prospects and customers to help them to select the suitable one for them.",
   },
   {
-    title: "Web Design & Development",
+    title: "Email Marketing",
+    image: Email,
+    content:
+      "Email marketing involves sending targeted emails to prospects or customers to promote products, share updates, and build relationships. Effective email marketing campaigns often rely on segmentation, personalization, and automation.",
+  },
+  {
+    title: "Advertising",
     image: ADvertisement,
-    content: "We have in-depth knowledge and experience in web development and cater to a wide variety of clients. We offer value added services for technology oriented business solutions that are enough to help you remain competitive in the market.",
+    content:
+      "Advertising allows businesses to display ads on search engines or other platforms and pay a fee each time someone.",
   },
   {
-    title: "Mobile App Development",
+    title: "Affiliate Marketing",
     image: Affiliate,
-    content: "Sacrosys is a reliable and reputed mobile app development company offering varied services for iOS, Android and cross platform development. All our applications are customiz- able, robust, scalable and provide your business with the best mobile experience.",
+    content:
+      " Affiliate marketing involves partnering with individuals or other businesses (affiliates) who promote your products or services in exchange for a commission for each sale or lead generated through their efforts.",
+  },
+  {
+    title: "Social Media Marketing",
+    image: SocialMedia,
+    content:
+      "SMM involves using social media platforms like Facebook, Instagram, Twitter, LinkedIn, and others to promote products or services, build brand awareness, and engage with customers.",
   },
   // {
   //   title: "Influencer Marketing",
@@ -76,50 +97,53 @@ export const serviceData = [
   // },
 ];
 
-
 // todo: home page experience data
 
-export const experienceData=[
+export const experienceData = [
   {
-    title:"Years Of",
-    title2:"Experience",
-    count:23,
-    image:Experience
+    title: "Years Of",
+    title2: "Experience",
+    count: 23,
+    image: Experience,
   },
   {
     // title:"Completed",
-    title:"Successful Project",
-    count:10000,
-    image:Project
+    title: "Successful Project",
+    count: 10000,
+    image: Project,
   },
   {
-    title:"Our",
-    title2:"Happy Clients",
-    count:3000,
-    image:Clients
+    title: "Our",
+    title2: "Happy Clients",
+    count: 3000,
+    image: Clients,
   },
-]
+];
 
-export const testimonialData=[
+export const testimonialData = [
   {
-    name:"******",
-    image:Testimonial,
-    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    name: "******",
+    image: Testimonial,
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
   },
   {
-    name:"******",
-    image:Testimonial1,
-    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    name: "******",
+    image: Testimonial1,
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
   },
   {
-    name:"******",
-    image:Testimonial2,
-    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    name: "******",
+    image: Testimonial2,
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
   },
   {
-    name:"******",
-    image:Testimonial3,
-    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    name: "******",
+    image: Testimonial3,
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
   },
   // {
   //   name:"******",
@@ -131,25 +155,47 @@ export const testimonialData=[
   //   image:Testimonial5,
   //   content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
   // },
-] 
+];
 
-export const clientData=[
+// Client promotion data
+export const clientData = [
   {
-    image:Client1
+    image: Client1,
   },
   {
-    image:Client2
+    image: Client2,
   },
   {
-    image:Client3
+    image: Client3,
   },
   {
-    image:Client4
+    image: Client4,
   },
   {
-    image:Client5
+    image: Client5,
   },
   {
-    image:Client6
+    image: Client6,
   },
-]
+];
+
+export const serviceBannerData = [
+  {
+    image: Banner1,
+  },
+  {
+    image: Banner2,
+  },
+  {
+    image: Banner3,
+  },
+  {
+    image: Banner4,
+  },
+  {
+    image: Banner5,
+  },
+  {
+    image: Banner6,
+  },
+];
