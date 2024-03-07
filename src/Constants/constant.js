@@ -363,3 +363,43 @@ export const emailData=[
     icon:Compliance
   },
 ]
+
+// Advertising data
+import DisplayAd from "../assets/Icons/Ads/display ad.png";
+import videoAd from "../assets/Icons/Ads/video-marketing.png";
+import SocialMediaAd from "../assets/Icons/Ads/social-media.png";
+import GoogleAd from "../assets/Icons/Ads/Google ad.png";
+import ShoppingAd from "../assets/Icons/Ads/shopping ad.png";
+import CampaignsAd from "../assets/Icons/Ads/ad-campaign.png";
+export const AdvertisingData=[
+  {
+    title:"Display Ads",
+    content:"Display ads are visual advertisements that appear on websites, apps, or social media platforms. They can be static images or interactive multimedia content.",
+    icon:DisplayAd
+  },
+  {
+    title:"Video Ads",
+    content:"Video ads are promotional messages displayed before, during, or after online video content. They can be skippable or non-skippable and may appear on platforms like YouTube, Vimeo, or social media networks.",
+    icon:videoAd
+  },
+  {
+    title:"Social Media Ads",
+    content:"Social media ads are paid advertisements displayed on social networking platforms like Facebook, Instagram, Twitter, LinkedIn, and Pinterest. They can target specific demographics, interests, or behaviors of users.",
+    icon:SocialMediaAd
+  },
+  {
+    title:"Google Search Ads",
+    content:"Google search ads, also known as pay-per-click (PPC) ads, appear on search engine results pages (SERPs) when users search for specific keywords or phrases related to the advertiser's products or services.",
+    icon:GoogleAd
+  },
+  {
+    title:"Shopping Ads",
+    content:"Shopping ads are product listings ads that appear on search engine results pages (SERPs) and showcase specific products along with their prices and images. They are commonly used for e-commerce businesses to promote their products.",
+    icon:ShoppingAd
+  },
+  {
+    title:"App Ad Campaigns",
+    content:"App ad campaigns are promotions designed to drive app installations or engagement. These ads can appear within other mobile apps, on social media platforms, or through mobile search ads.",
+    icon:CampaignsAd
+  },
+];
