@@ -280,3 +280,86 @@ export const contentMarketingData=[
     icon:Book
   },
 ]
+
+// Email Paged data
+import Campaigns from "../assets/Icons/Email/email-companian.png"
+import SubList from "../assets/Icons/Email/sub-list.png";
+import EmailTemplate from "../assets/Icons/Email/email-template.png";
+import Personalization from "../assets/Icons/Email/mail.png";
+import ContentCreation from "../assets/Icons/Email/writer.png";
+import SubjectLines from '../assets/Icons/Email/sub-lines.png';
+import CalltoAction from "../assets/Icons/Email/web-promotion.png";
+import Segmentation from "../assets/Icons/Email/segmentation.png";
+import Testing from "../assets/Icons/Email/data.png";
+import Tracking from "../assets/Icons/Email/search.png";
+import Automation from "../assets/Icons/Email/email.png";
+import Optimization from "../assets/Icons/Email/email-marketing.png";
+import Compliance from "../assets/Icons/Email/compliant.png";
+
+export const emailData=[
+  {
+    title:"Email Campaigns",
+    content:'These are planned series of emails sent to a targeted audience to achieve specific marketing goals.',
+    icon:Campaigns
+  },
+  {
+    title:"Subscriber List Management",
+    content:'Building and maintaining a list of subscribers who have opted in to receive emails from the sender. This involves managing subscriptions, segmentation, and ensuring compliance with regulations like GDPR and CAN-SPAM.',
+    icon:SubList
+  },
+  {
+    title:"Email Templates",
+    content:'Pre-designed layouts and formats for emails that maintain brand consistency and visual appeal.',
+    icon:EmailTemplate
+  },
+  {
+    title:"Personalization",
+    content:'Tailoring email content to the preferences and behaviors of individual subscribers, such as using their name, purchase history, or demographic information.',
+    icon:Personalization
+  },
+  {
+    title:"Content Creation",
+    content:'Developing engaging and valuable content for email campaigns, including text, images, videos, and links to relevant resources.',
+    icon:ContentCreation
+  },
+  {
+    title:"Subject Lines",
+    content:'Crafting compelling subject lines that grab attention and encourage recipients to open the email.',
+    icon:SubjectLines
+  },
+  {
+    title:"Call-to-Action",
+    content:'Including clear and persuasive calls-to-action that prompt recipients to take desired actions, such as making a purchase, signing up for a webinar, or downloading a resource.',
+    icon:CalltoAction
+  },
+  {
+    title:"Segmentation",
+    content:' Dividing the subscriber list into smaller, targeted segments based on factors like demographics, behavior, interests, or engagement levels to deliver more relevant content.',
+    icon:Segmentation
+  },
+  {
+    title:"A/B Testing",
+    content:'Experimenting with different elements of the email, such as subject lines, content, or send times, to determine what resonates best with the audience and improves performance metrics.',
+    icon:Testing
+  },
+  {
+    title:"Analytics and Tracking",
+    content:'Monitoring key performance indicators (KPIs) such as open rates, click-through rates, conversion rates, and unsubscribe rates to measure the effectiveness of email campaigns and make data-driven decisions for optimization.',
+    icon:Tracking
+  },
+  {
+    title:"Automation",
+    content:"Implementing automated workflows to send emails triggered by specific actions or events, such as welcome emails, abandoned cart reminders, or birthday greetings.",
+    icon:Automation
+  },
+  {
+    title:"Optimization",
+    content:"Continuously refining email campaigns based on performance data and feedback to improve results over time.",
+    icon:Optimization
+  },
+  {
+    title:"Compliance",
+    content:"Adhering to relevant laws and regulations governing email marketing, such as obtaining consent from subscribers, providing opt-out mechanisms, and honoring unsubscribe requests promptly.",
+    icon:Compliance
+  },
+]

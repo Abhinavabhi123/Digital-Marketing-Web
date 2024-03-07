@@ -3,7 +3,9 @@ import Quotes from "../../assets/Svg/quotes.svg";
 
 export default function Clients() {
   return (
-    <div className="w-full min-h-[20rem] bg-[#7469B6] bg-opacity-35 flex flex-col md:flex-row md:mb-12 my-20 md:my-0">
+    <div className="w-full min-h-[20rem] bg-slate-900/80 flex flex-col md:flex-row md:mb-12 my-20 md:my-0">
+      {/* bg-[#7469B6] */}
+      {/* bg-opacity-35 */}
       <div className="w-full h-full md:w-1/2 bg-transparent p-6 md:p-16">
         <img src={Quotes} alt="quotes" className="size-10 md:size-20" />
         <p className="text-sm md:text-xl font-semibold">

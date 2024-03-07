@@ -1,4 +1,4 @@
-import { ContactFooter, Footer, Header, Seo } from "../../Components";
+import { Clients, ContactFooter, ExperienceCounter, Footer, Header, Seo } from "../../Components";
 
 export default function SeoPage() {
   return (
@@ -6,6 +6,8 @@ export default function SeoPage() {
       <Header />
       <Seo/>
       <ContactFooter />
+      <ExperienceCounter/>
+      <Clients/>
       <Footer />
     </div>
   );

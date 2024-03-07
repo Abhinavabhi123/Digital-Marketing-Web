@@ -32,20 +32,23 @@ export default function Header() {
           <Link to={"/services"}>Services</Link>
           <ul className="nav-animation w-56 h-fit service-list absolute hidden  group-hover:block  bg-black/70 z-50 py-3 top-[1.8rem]">
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              <Link to={"/services/seo"}>SEO</Link>
+              <Link to={"/services/seo"} className="text-sm">SEO</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              <Link to={"/services/content-marketing"}>Content Marketing</Link>
+              <Link to={"/services/content-marketing"} className="text-sm">Content Marketing</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Email Marketing
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">Advertising</li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Affiliate Marketing
+              <Link to={"/services/email-marketing"} className="text-sm">Email Marketing</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Social Media Marketing
+              <Link to={"/services/advertising"} className="text-sm"> Advertising</Link>
+            </li>
+            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+              <Link to={"/services/affiliate-marketing"} className="text-sm">Affiliate Marketing</Link>
+            </li>
+            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+            <Link to={"/services/social-media"} className="text-sm">Social Media Marketing</Link>
+              
             </li>
             {/* <li className="text-sm hover:bg-gray-500 ps-5 py-1">
               Digital Strategy
@@ -117,22 +120,24 @@ export default function Header() {
             } flex-col items-center bg-transparent `}
           >
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              <Link to={"/services/seo"}>SEO</Link>
+              <Link to={"/services/seo"} className="text-sm">SEO</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              <Link to={"/services/content-marketing"}>Content Marketing</Link>
+              <Link to={"/services/content-marketing"} className="text-sm">Content Marketing</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              Email Marketing
+              <Link to={"/services/email-marketing"} className="text-sm">Email Marketing</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              Advertising
+              <Link to={"/services/advertising"} className="text-sm"> Advertising</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Affiliate Marketing
+              <Link to={"/services/affiliate-marketing"} className="text-sm">
+                Affiliate Marketing
+              </Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Social Media Marketing
+            <Link to={"/services/social-media"} className="text-sm">Social Media Marketing</Link>
             </li>
             {/* <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
               Digital Strategy

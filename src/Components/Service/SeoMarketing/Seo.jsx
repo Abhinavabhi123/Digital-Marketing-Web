@@ -158,7 +158,7 @@ export default function Seo() {
         </div>
       </div>
       {/* grid section */}
-      <div className="w-full h-full flex flex-col items-center gap-12">
+      <div className="w-full h-full flex flex-col items-center gap-12 md:py-10">
         <div className="flex text-center">
           <h1 className="text-2xl md:text-4xl font-bold leading-relaxed">
             Unleashing the Power of Advanced <br />

@@ -1,17 +1,17 @@
 import {
-  Clients,
+    Clients,
   ContactFooter,
-  ContentMarketing,
+  EmailMarketing,
   ExperienceCounter,
   Footer,
   Header,
 } from "../../Components";
 
-export default function ContentMarketingPage() {
+export default function EmailMarketingPage() {
   return (
     <div className="w-full min-h-[100vh] bg-bg-color rounded-3xl ">
       <Header />
-      <ContentMarketing />
+      <EmailMarketing />
       <ExperienceCounter/>
       <Clients/>
       <ContactFooter />

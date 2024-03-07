@@ -6,3 +6,7 @@ export {default as AboutUsPage} from "./AboutUsPage"
 export {default as MainServicePage} from "./ServicePages/MainServicePage";
 export {default as SeoPage} from "./ServicePages/SeoPage";
 export {default as ContentMarketingPage} from "./ServicePages/ContentMarketingPage";
+export {default as EmailMarketingPage} from "./ServicePages/EmailMarketingPage";
+export {default as AdvertisingPage} from "./ServicePages/AdvertisingPage";
+export {default as AffiliateMarketingPage} from "./ServicePages/AffiliateMarketingPage";
+export {default as SocialMediaPage} from "./ServicePages/SocialMediaPage";
