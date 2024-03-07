@@ -51,8 +51,8 @@ export default function AffiliateMarketing() {
             <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
                 {
                     affiliateData.map((item,i)=>(
-                        <div key={i} className="w-full min-h-56 bg-black/30 rounded-md p-2 space-y-3">
-                            <div className="p-3 rounded-full w-fit h-fit bg-black/80">
+                        <div key={i} className="w-full min-h-56 bg-gradient-to-r from-blue-400/5 to-purple-500/50 rounded-md p-2 space-y-3">
+                            <div className="p-3 rounded-full w-fit h-fit bg-black">
                                 <img src={item.icon} alt="affiliate icon" className="size-8 animate-pulse" />
                             </div>
                             <div className="space-y-3">

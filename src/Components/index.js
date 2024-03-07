@@ -21,3 +21,4 @@ export {default as ContentMarketing} from "./Service/ContentMarketing/ContentMar
 export {default as EmailMarketing} from "./Service/EmailMarketing/EmailMarketing";
 export {default as Advertising} from "./Service/Advertising/Advertising";
 export {default as AffiliateMarketing} from "./Service/AffiliateMarketing/AffiliateMarketing";
+export {default as SocialMediaMarketing} from "./Service/SocialMediaMarketing/SocialMediaMarketing";

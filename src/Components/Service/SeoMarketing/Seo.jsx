@@ -36,14 +36,14 @@ export default function Seo() {
       </div>
       {/* Main section */}
       <div className="w-full h-full space-y-5">
-        <div className="ps-4 md:ps-20  space-y-3">
-          <h1 className="text-lg md:text-3xl service-title">
+        <div className="flex flex-col items-center space-y-3">
+          <h1 className="text-lg md:text-4xl font-semibold service-title">
             Search Engine Optimization (SEO)
           </h1>
           <div className="decoration-div w-80 md:w-[33rem] h-1 rounded-md"></div>
         </div>
-        <div className="ps-4 md:ps-20 space-y-7 ">
-          <p className="tracking-wide md:leading-7">
+        <div className=" space-y-7 ">
+          <p className="tracking-wide md:leading-7 text-center">
             Search Engine Optimization is the process of getting traffic from
             the &quot;free,&quot; &quot;organic,&quot; &quot;editorial&quot; or
             &quot;natural&quot; search results on search engines .

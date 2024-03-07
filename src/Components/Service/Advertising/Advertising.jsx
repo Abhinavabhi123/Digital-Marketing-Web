@@ -8,10 +8,10 @@ export default function Advertising() {
       {/* Banner section */}
       <div className="w-full min-h-[30rem] bg-transparent flex flex-col md:flex-row">
         <div className="w-full h-full md:w-1/2 bg-transparent px-5 space-y-6 md:p-20 flex flex-col justify-between">
-          <h1 className="text-2xl md:text-5xl font-bold tracking-wider">
+          <h1 className="text-2xl md:text-5xl font-bold tracking-wider text-center">
             Transform Your Business with Proven Advertising Techniques!
           </h1>
-          <p className="text-gray-500">
+          <p className="text-gray-500 text-center">
             Revolutionize your business trajectory with time-tested advertising
             methods. Experience the transformative power of proven strategies
             today!
@@ -50,7 +50,7 @@ export default function Advertising() {
             {AdvertisingData.map((item, i) => (
               <div
                 key={i}
-                className="w-full min-h-56 rounded-lg bg-gradient-to-r from-blue-400/50 to-purple-500/50 p-2 space-y-3"
+                className="w-full min-h-56 rounded-lg bg-gradient-to-r from-blue-400/5 to-purple-500/50 p-2 space-y-3"
               >
                 <div className="p-3 bg-black/80 w-fit h-fit rounded-full">
                   <img src={item.icon} alt="icon" className="size-8" />

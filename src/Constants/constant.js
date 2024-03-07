@@ -456,3 +456,56 @@ export const affiliateData=[
     icon:mlm
   },
 ]
+
+// Social Media Marketing Data
+import ContentMarketingSocial from '../assets/Icons/Social media/content-marketing.png';
+import InfluecerMarketing from "../assets/Icons/Social media/influencer.png";
+import PaidAd from "../assets/Icons/Social media/paid-ad.png";
+import Contest from "../assets/Icons/Social media/context.png";
+import userGenerated from "../assets/Icons/Social media/user-generated-content.png";
+import CommunityManagement from "../assets/Icons/Social media/community-management.png";
+import MediaListening from "../assets/Icons/Social media/social-listening.png";
+import MediaAnalytics from "../assets/Icons/Social media/social-media-management.png"
+
+export const SocialData=[
+  {
+    title:"Content Marketing",
+    content:"Haring valuable and relevant content, such as articles, blog posts, videos, and infographics, to attract and engage followers.",
+    icon:ContentMarketingSocial
+  },
+  {
+    title:"Influencer Marketing",
+    content:" Collaborating with influencers or individuals with large followings on social media to endorse products or services to their audience.",
+    icon:InfluecerMarketing
+  },
+  {
+    title:"Paid Advertising",
+    content:"Using paid advertising features on social media platforms, such as Facebook Ads, Instagram Ads, Twitter Ads, and LinkedIn Ads, to target specific demographics and promote products or services.",
+    icon:PaidAd
+  },
+  {
+    title:"Social Media Contests and Giveaways",
+    content:"Hosting contests, giveaways, or challenges on social media platforms to increase engagement, grow followers, and generate buzz around a brand or product.",
+    icon:Contest
+  },
+  {
+    title:"User-Generated Content",
+    content:"Encouraging users to create and share content related to a brand or product, which can increase brand visibility and credibility.",
+    icon:userGenerated
+  },
+  {
+    title:"Community Management",
+    content:"Building and managing communities or groups on social media platforms where members can engage with each other and with the brand.",
+    icon:CommunityManagement
+  },
+  {
+    title:"Social Listening and Monitoring",
+    content:"Monitoring social media channels to track brand mentions, customer feedback, and industry trends, and responding to inquiries or comments in a timely manner.",
+    icon:MediaListening
+  },
+  {
+    title:"Social Media Analytics and Reporting",
+    content:" Analyzing performance metrics such as reach, engagement, and conversion rates to measure the effectiveness of social media marketing efforts and make data-driven decisions for optimization.",
+    icon:MediaAnalytics
+  },
+]

@@ -64,7 +64,7 @@ export default function EmailMarketing() {
         <div className="w-full h-full bg-transparent grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
             {
                 emailData.map((item,i)=>(
-                    <div key={i} className="w-full min-h-60 bg-gradient-to-r from-blue-400/50 to-purple-500/50 rounded-lg p-3 space-y-5">
+                    <div key={i} className="w-full min-h-60 bg-gradient-to-r from-blue-400/5 to-purple-500/50 rounded-lg p-3 space-y-5">
                         <div className="p-4 w-fit h-fit rounded-full bg-black/80">
                             <img src={item.icon} alt="icon" className="size-8 animate-pulse" />
                         </div>
