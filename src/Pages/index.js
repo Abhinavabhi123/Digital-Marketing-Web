@@ -5,3 +5,4 @@ export {default as AboutUsPage} from "./AboutUsPage"
 
 export {default as MainServicePage} from "./ServicePages/MainServicePage";
 export {default as SeoPage} from "./ServicePages/SeoPage";
+export {default as ContentMarketingPage} from "./ServicePages/ContentMarketingPage";

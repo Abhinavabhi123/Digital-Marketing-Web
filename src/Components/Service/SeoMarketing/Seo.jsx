@@ -50,19 +50,19 @@ export default function Seo() {
           </p>
           <div className="flex flex-col md:flex-row md:gap-10 leading-10 ps-10 justify-center font-semibold">
             <div className="">
-              <ul className="list-disc">
-                <li>Enterprise SEO</li>
-                <li>Local SEO</li>
-                <li>E-Commerce SEO</li>
-                <li>World Wide SEO</li>
+              <ul className="list-disc space-y-4">
+                <li className="text-lg tracking-wider">Enterprise SEO</li>
+                <li className="text-lg tracking-wider">Local SEO</li>
+                <li className="text-lg tracking-wider">E-Commerce SEO</li>
+                <li className="text-lg tracking-wider">World Wide SEO</li>
               </ul>
             </div>
             <div>
-              <ul className="list-disc">
-                <li>Multi-Lingual SEO</li>
-                <li>Web Analytics</li>
-                <li>Link Building</li>
-                <li>Algorithm Updates</li>
+              <ul className="list-disc space-y-4">
+                <li className="text-lg tracking-wider">Multi-Lingual SEO</li>
+                <li className="text-lg tracking-wider">Web Analytics</li>
+                <li className="text-lg tracking-wider">Link Building</li>
+                <li className="text-lg tracking-wider">Algorithm Updates</li>
               </ul>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Seo() {
         </div>
       </div>
       <div className="bg-transparent seo-middle-container">
-        <div className=" bg-transparent ring-2 py-10  seo-middle-container-inner">
+        <div className=" bg-transparent shadow-md shadow-violet-500 border border-violet-500 py-10  seo-middle-container-inner">
           <div className=" bg-transparent space-y-5 seo-middle-container-inner-left">
             <h1 className="text-2xl md:text-4xl font-bold">
               We follow a simple, yet effective SEO ranking process

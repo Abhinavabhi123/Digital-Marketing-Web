@@ -16,4 +16,5 @@ export {default as Clients} from "./Experience/Clients";
 //* Service routes
 
 export {default as MainService} from "./Service/MainService/MainService";
-export {default as Seo} from "./Service/SeoMarketing/Seo"
+export {default as Seo} from "./Service/SeoMarketing/Seo";
+export {default as ContentMarketing} from "./Service/ContentMarketing/ContentMarketing";

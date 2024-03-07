@@ -35,7 +35,7 @@ export default function Header() {
               <Link to={"/services/seo"}>SEO</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Content Marketing
+              <Link to={"/services/content-marketing"}>Content Marketing</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 ps-5 py-1">
               Email Marketing
@@ -117,10 +117,10 @@ export default function Header() {
             } flex-col items-center bg-transparent `}
           >
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              SEO
+              <Link to={"/services/seo"}>SEO</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              Content Marketing
+              <Link to={"/services/content-marketing"}>Content Marketing</Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
               Email Marketing

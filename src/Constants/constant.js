@@ -240,3 +240,43 @@ export const seoData =[
     icon:ECommerce
   },
 ]
+
+// Content Marketing grid data
+import Book from "../assets/Icons/Content/book.png";
+import Bar from "../assets/Icons/Content/bar.png";
+import Chart from "../assets/Icons/Content/chart.png";
+import Monitor from "../assets/Icons/Content/monitor.png";
+import Stop from "../assets/Icons/Content/stop.png";
+
+export const contentMarketingData=[
+  {
+    title:"Real-Time Email Alerts",
+    content:"Sacrosys is a very powerful Web 2.0 site search engine allows you to find email alerts",
+    icon:Book
+  },
+  {
+    title:"Monitor Inbound Traffic",
+    content:"The biggest challenge for marketers is being heard inbound traffic in market.",
+    icon:Monitor
+  },
+  {
+    title:"Track Multiple Sites",
+    content:"Sacrosys gives you an innovative web-based tool that manages multiple sites",
+    icon:Chart
+  },
+  {
+    title:"Aggregate Statistics",
+    content:"Filters and reports on your website's search engine ranking results.",
+    icon:Bar
+  },
+  {
+    title:"Edit Exclude",
+    content:"In short, Sacrosys gives you the information that allows you to changes in your website's ranking",
+    icon:Stop
+  },
+  {
+    title:"Easy To Implement",
+    content:"Accurately track organic (or natural) search engine movement over time.",
+    icon:Book
+  },
+]
