@@ -199,3 +199,44 @@ export const serviceBannerData = [
     image: Banner6,
   },
 ];
+
+// todo seo single page data
+import Seo from "../assets/Icons/Seo/seo.png";
+import Content from "../assets/Icons/Seo/content-making.png";
+import Technical from "../assets/Icons/Seo/analytics.png";
+import webMigration from "../assets/Icons/Seo/web-migration.png";
+import Link from "../assets/Icons/Seo/link.png";
+import ECommerce from "../assets/Icons/Seo/e-commerce-seo.png";
+
+export const seoData =[
+  {
+    title:"Keyword strategy",
+    content:"When developing a keyword strategy, we use a number of tools to conduct keyword research alongside.",
+    icon:Seo
+  },
+  {
+    title:"Content optimization",
+    content:"Ranking on page 1 &gaining rich snippets requires a detailed SEO content strategy. Everything from header tag optimization.",
+    icon:Content
+  },
+  {
+    title:"Technical SEO",
+    content:"Creating great content is one thing, but making sure Googlebot can crawl, and index it efficiently is another! We used.",
+    icon:Technical
+  },
+  {
+    title:"Link building & SEO audits",
+    content:"Backlinks are still an essential part of Google's algorithm, If you want us to look at your website as a whole and provide.",
+    icon:Link
+  },
+  {
+    title:"Website migrations",
+    content:"Whether it's a domain, design, or platform migration, there is always the risk of losing organic traffic. We can mitigate that risk.",
+    icon:webMigration
+  },
+  {
+    title:"E-Commerce SEO",
+    content:"E-Commerce websites require a unique approach to SEO in order to maximize for product page visibility and increase sales.",
+    icon:ECommerce
+  },
+]
