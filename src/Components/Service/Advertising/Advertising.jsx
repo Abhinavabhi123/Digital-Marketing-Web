@@ -7,8 +7,8 @@ export default function Advertising() {
     <div className="w-full h-full">
       {/* Banner section */}
       <div className="w-full min-h-[30rem] bg-transparent flex flex-col md:flex-row">
-        <div className="w-full h-full md:w-1/2 bg-transparent px-10 space-y-6 md:p-20 flex flex-col justify-between">
-          <h1 className="text-4xl font-bold tracking-wider">
+        <div className="w-full h-full md:w-1/2 bg-transparent px-5 space-y-6 md:p-20 flex flex-col justify-between">
+          <h1 className="text-2xl md:text-5xl font-bold tracking-wider">
             Transform Your Business with Proven Advertising Techniques!
           </h1>
           <p className="text-gray-500">
@@ -26,7 +26,7 @@ export default function Advertising() {
             </button>
           </div>
         </div>
-        <div className="w-full h-full md:w-1/2 bg-transparent p-10 md:p-20">
+        <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-20">
           <img src={Banner} alt="banner image" className="rounded-2xl ring-4" />
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function Advertising() {
             digital realm.
           </p>
         </div>
-        <div className="w-full h-full px-10 md:py-20 md:px-56">
+        <div className="w-full h-full px-5 md:py-20 md:px-56">
           <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {AdvertisingData.map((item, i) => (
               <div

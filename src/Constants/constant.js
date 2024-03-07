@@ -403,3 +403,56 @@ export const AdvertisingData=[
     icon:CampaignsAd
   },
 ];
+
+// Affiliate single page data
+import ContentAff from "../assets/Icons/Affiliate/content-marketing.png";
+import Coupon from "../assets/Icons/Affiliate/coupon.png";
+import Influencer from "../assets/Icons/Affiliate/influencer.png";
+import EmailAff from "../assets/Icons/Affiliate/email.png";
+import Comparison from "../assets/Icons/Affiliate/review-site.png";
+import Niche from "../assets/Icons/Affiliate/niche-market.png";
+import Site from "../assets/Icons/Affiliate/site.png";
+import mlm from "../assets/Icons/Affiliate/mlm.png"; 
+
+export const affiliateData=[
+  {
+    title:"Content Affiliate Marketing",
+    content:"Affiliates create content such as blog posts, articles, or videos that promote products or services. They include affiliate links within the content, directing readers or viewers to the merchant's website.",
+    icon:ContentAff
+  },
+  {
+    title:"Coupon and Deal Sites",
+    content:"Affiliates share discount codes, coupons, or special deals with their audience. When customers use these codes to make purchases, the affiliate earns a commission.",
+    icon:Coupon
+  },
+  {
+    title:"Influencer Marketing",
+    content:"Influencers with a large following on social media platforms promote products or services to their audience. They may create sponsored posts or videos featuring the affiliate's products and include affiliate links.",
+    icon:Influencer
+  },
+  {
+    title:"Review Sites",
+    content:" Affiliates create websites or platforms dedicated to reviewing products or services within a specific niche. They include affiliate links in their reviews, earning commissions when visitors make purchases through those links.",
+    icon:Site
+  },
+  {
+    title:"Email Marketing",
+    content:"Affiliates build email lists and send promotional emails to subscribers recommending products or services. They include affiliate links in the emails, earning commissions on any resulting sales.",
+    icon:EmailAff
+  },
+  {
+    title:"Comparison and Aggregator Sites",
+    content:"Affiliates create websites that compare prices, features, or reviews of various products or services. They include affiliate links to the products or services they recommend, earning commissions on sales generated through their site.",
+    icon:Comparison
+  },
+  {
+    title:"Niche Affiliate Marketing",
+    content:"Affiliates focus on promoting products or services within a specific niche or industry. By targeting a narrow audience, they can establish themselves as experts and drive higher conversions.",
+    icon:Niche
+  },
+  {
+    title:"Multi-Level Marketing",
+    content:"Affiliates recruit others to become affiliates and earn commissions not only from their own sales but also from the sales made by their recruits and the recruits' recruits.",
+    icon:mlm
+  },
+]

@@ -20,3 +20,4 @@ export {default as Seo} from "./Service/SeoMarketing/Seo";
 export {default as ContentMarketing} from "./Service/ContentMarketing/ContentMarketing";
 export {default as EmailMarketing} from "./Service/EmailMarketing/EmailMarketing";
 export {default as Advertising} from "./Service/Advertising/Advertising";
+export {default as AffiliateMarketing} from "./Service/AffiliateMarketing/AffiliateMarketing";
