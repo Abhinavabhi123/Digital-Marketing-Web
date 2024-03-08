@@ -39,19 +39,19 @@ export default function Testimonial() {
     arrows: false,
     responsive: [
       {
-        breakpoint: 1329, // Adjusted breakpoint value
+        breakpoint: 1329, 
         settings: {
           slidesToShow: 3,
         }
       },
       {
-        breakpoint: 992, // Adjusted breakpoint value
+        breakpoint: 992, 
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 576, // Adjusted breakpoint value
+        breakpoint: 576, 
         settings: {
           slidesToShow: 1,
         }
