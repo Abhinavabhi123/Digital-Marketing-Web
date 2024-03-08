@@ -2,8 +2,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { serviceBannerData, serviceData } from "../../../Constants/constant";
+import { useNavigate } from "react-router-dom";
+
 
 export default function MainService() {
+
+  const navigate = useNavigate();
   var settings = {
     dots: true,
     infinite: true,
@@ -99,8 +103,13 @@ export default function MainService() {
                 key={i}
                 // style={{background:"var(--primary-gradient)"}}
                 className="w-full md:size-44  p-5 bg-black/70  flex flex-col justify-center items-center gap-5 rounded-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                onClick={() => navigate(`${item.link}`)}
               >
-                <img src={item.image} alt="image" className="size-14 md:size-20" />
+                <img
+                  src={item.image}
+                  alt="image"
+                  className="size-14 md:size-20"
+                />
                 <p className="text-center">{item.title}</p>
               </div>
             ))}

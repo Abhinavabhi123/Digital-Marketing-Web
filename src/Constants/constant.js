@@ -49,37 +49,43 @@ export const serviceData = [
     image: SEO,
     content:
       "SEO involves optimizing your website to rank higher in search engine results pages (SERPs) for relevant keywords. This is achieved through various techniques like keyword research, content optimization, and link building.",
-  },
+    link:"/services/seo"
+    },
   {
     title: "Content Marketing",
     image: ContentMarketing,
     content:
       "In Content Marketing, instead of pitching your products or services, you are providing truly relevant and useful content to your prospects and customers to help them to select the suitable one for them.",
-  },
+      link:"/services/content-marketing"
+    },
   {
     title: "Email Marketing",
     image: Email,
     content:
       "Email marketing involves sending targeted emails to prospects or customers to promote products, share updates, and build relationships. Effective email marketing campaigns often rely on segmentation, personalization, and automation.",
-  },
+      link:"/services/email-marketing"
+    },
   {
     title: "Advertising",
     image: ADvertisement,
     content:
       "Advertising allows businesses to display ads on search engines or other platforms and pay a fee each time someone.",
-  },
+      link:"/services/advertising"
+    },
   {
     title: "Affiliate Marketing",
     image: Affiliate,
     content:
       " Affiliate marketing involves partnering with individuals or other businesses (affiliates) who promote your products or services in exchange for a commission for each sale or lead generated through their efforts.",
-  },
+      link:"/services/affiliate-marketing"
+    },
   {
     title: "Social Media Marketing",
     image: SocialMedia,
     content:
       "SMM involves using social media platforms like Facebook, Instagram, Twitter, LinkedIn, and others to promote products or services, build brand awareness, and engage with customers.",
-  },
+      link:"/services/social-media"
+    },
   // {
   //   title: "Influencer Marketing",
   //   image: Influencer,
