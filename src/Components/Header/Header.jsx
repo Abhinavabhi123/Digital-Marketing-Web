@@ -69,12 +69,16 @@ export default function Header() {
           </div>
         </li>
         <li className="nav-link">Awards</li>
-        <li className="nav-link">PortFolio</li>
+        <li className="nav-link">
+          <Link to={"/portfolio"}>PortFolio</Link>
+        </li>
         <li className="nav-link">Clients</li>
         <li className="nav-link">
           <Link to={"/about-us"}>About Us</Link>
         </li>
-        <li className="nav-link">Contact Us</li>
+        <li className="nav-link">
+          <Link to={"/contact-us"}>Contact Us</Link>
+        </li>
       </ul>
       <label className="hamburger">
         <input type="checkbox" onClick={() => setMenuOpen(!menuOpen)} />
@@ -149,12 +153,14 @@ export default function Header() {
             </li>
           </ul>
           <li className="text-sm">Awards</li>
-          <li className="text-sm">PortFolio</li>
+          <li className="text-sm">
+            <Link to={"/portfolio"}>PortFolio</Link>
+          </li>
           <li className="text-sm">Clients</li>
           <li className="text-sm">
             <Link to={"/about-us"}>About Us</Link>
           </li>
-          <li className="text-sm">Contact Us</li>
+          <Link to={"/contact-us"}>Contact Us</Link>
         </ul>
       </div>
     </div>

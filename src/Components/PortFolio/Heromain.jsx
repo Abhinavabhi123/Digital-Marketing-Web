@@ -10,6 +10,7 @@ import img7 from "../../assets/Images/Strange.jpg";
 import { PinContainer } from "./Animation";
 import LampDemo from "./lamp";
 
+
 const cards = [
   {
     url: img1,
@@ -61,7 +62,7 @@ const Example = () => {
 
 const HorizontalScrollCarousel = () => {
   const targetRef = useRef(null);
-  const {  scrollYProgress } = useScroll({
+  const { scrollYProgress } = useScroll({
     target: targetRef,
   });
   const [isLastCardVisible, setIsLastCardVisible] = useState(false);
@@ -78,7 +79,7 @@ const HorizontalScrollCarousel = () => {
     <section ref={targetRef} className="relative h-[300vh] bg-neutral-950">
       <LampDemo/>
       {!isLastCardVisible && (
-        <h1 className="text-white font-body font-bold text-3xl pt-10 sticky top-0 left-0 text-left  pl-28  h-5">
+        <h1 className="text-white font-body font-bold text-5xl pt-10 sticky top-0 left-0 text-left  pl-28  h-5">
           Portfolio
         </h1>
       )}
@@ -121,4 +122,3 @@ const Card = (Props) => {
 };
 
 export default Example;
-

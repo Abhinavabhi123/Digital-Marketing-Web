@@ -10,3 +10,5 @@ export {default as EmailMarketingPage} from "./ServicePages/EmailMarketingPage";
 export {default as AdvertisingPage} from "./ServicePages/AdvertisingPage";
 export {default as AffiliateMarketingPage} from "./ServicePages/AffiliateMarketingPage";
 export {default as SocialMediaPage} from "./ServicePages/SocialMediaPage";
+export {default as PortFolioPage} from "./PortFolioPage";
+export {default as ContactUsPage} from "./ContactUsPage"; 
