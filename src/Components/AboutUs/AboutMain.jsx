@@ -81,7 +81,7 @@ export default function AboutBanner() {
       <div className="w-full min-h-[23rem] bg-transparent relative">
         <div className="p-6 md:pt-10 md:ps-20  space-y-3">
           <h1 className="text-lg md:text-3xl font-semibold">Purpose</h1>
-          <div className="h-1 w-36 md:w-48 bg-gradient-to-r from-blue-500 to bg-purple-400 rounded-md"></div>
+          <div className="h-1 w-36 md:w-32 bg-gradient-to-r from-blue-500 to bg-purple-400 rounded-md"></div>
         </div>
         <div className="w-full h-[80%] bg-transparent flex flex-col md:flex-row flex-wrap">
           <div className="w-full h-full md:w-1/2 bg-transparent px-20 flex justify-center items-center">

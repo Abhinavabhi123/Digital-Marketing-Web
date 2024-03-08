@@ -28,52 +28,49 @@ export default function Header() {
         <li className="nav-link">
           <Link to={"/"}>Home</Link>
         </li>
-        <li className="nav-link group relative">
-          <Link to={"/services"}>Services</Link>
-          <ul className="nav-animation w-56 h-fit service-list absolute hidden  group-hover:block  bg-black/70 z-50 py-3 top-[1.8rem]">
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              <Link to={"/services/seo"} className="text-sm">SEO</Link>
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              <Link to={"/services/content-marketing"} className="text-sm">Content Marketing</Link>
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              <Link to={"/services/email-marketing"} className="text-sm">Email Marketing</Link>
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              <Link to={"/services/advertising"} className="text-sm"> Advertising</Link>
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              <Link to={"/services/affiliate-marketing"} className="text-sm">Affiliate Marketing</Link>
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-            <Link to={"/services/social-media"} className="text-sm">Social Media Marketing</Link>
-              
-            </li>
-            {/* <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Digital Strategy
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Video Production
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Augmented Reality
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Influencer Management
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Reputation Management
-            </li>
-            <li className="text-sm hover:bg-gray-500 ps-5 py-1">
-              Community Management
-            </li> */}
-          </ul>
+        <li className="nav-link group relative bg-transparent">
+          <Link to={"/services"}>
+            <a>Services</a>
+          </Link>
+          <div className="absolute w-fit h-fit top-[1rem] z-50 pt-4 bg-transparent hidden  group-hover:block hover:block">
+            <ul className="nav-animation w-56 h-fit service-list  hidden  group-hover:block bg-black/70 z-50 py-3 top-[1.8rem]">
+              <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+                <Link to={"/services/seo"} className="text-sm">
+                  SEO
+                </Link>
+              </li>
+              <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+                <Link to={"/services/content-marketing"} className="text-sm">
+                  Content Marketing
+                </Link>
+              </li>
+              <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+                <Link to={"/services/email-marketing"} className="text-sm">
+                  Email Marketing
+                </Link>
+              </li>
+              <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+                <Link to={"/services/advertising"} className="text-sm">
+                  {" "}
+                  Advertising
+                </Link>
+              </li>
+              <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+                <Link to={"/services/affiliate-marketing"} className="text-sm">
+                  Affiliate Marketing
+                </Link>
+              </li>
+              <li className="text-sm hover:bg-gray-500 ps-5 py-1">
+                <Link to={"/services/social-media"} className="text-sm">
+                  Social Media Marketing
+                </Link>
+              </li>
+            </ul>
+          </div>
         </li>
         <li className="nav-link">Awards</li>
         <li className="nav-link">PortFolio</li>
         <li className="nav-link">Clients</li>
-        <li className="nav-link">Blog</li>
         <li className="nav-link">
           <Link to={"/about-us"}>About Us</Link>
         </li>
@@ -120,16 +117,25 @@ export default function Header() {
             } flex-col items-center bg-transparent `}
           >
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              <Link to={"/services/seo"} className="text-sm">SEO</Link>
+              <Link to={"/services/seo"} className="text-sm">
+                SEO
+              </Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              <Link to={"/services/content-marketing"} className="text-sm">Content Marketing</Link>
+              <Link to={"/services/content-marketing"} className="text-sm">
+                Content Marketing
+              </Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              <Link to={"/services/email-marketing"} className="text-sm">Email Marketing</Link>
+              <Link to={"/services/email-marketing"} className="text-sm">
+                Email Marketing
+              </Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation py-1">
-              <Link to={"/services/advertising"} className="text-sm"> Advertising</Link>
+              <Link to={"/services/advertising"} className="text-sm">
+                {" "}
+                Advertising
+              </Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
               <Link to={"/services/affiliate-marketing"} className="text-sm">
@@ -137,31 +143,14 @@ export default function Header() {
               </Link>
             </li>
             <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-            <Link to={"/services/social-media"} className="text-sm">Social Media Marketing</Link>
+              <Link to={"/services/social-media"} className="text-sm">
+                Social Media Marketing
+              </Link>
             </li>
-            {/* <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Digital Strategy
-            </li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Video Production
-            </li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Augmented Reality
-            </li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Influencer Management
-            </li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Reputation Management
-            </li>
-            <li className="text-sm hover:bg-gray-500 menu-dropdown-animation  py-1">
-              Community Management
-            </li> */}
           </ul>
           <li className="text-sm">Awards</li>
           <li className="text-sm">PortFolio</li>
           <li className="text-sm">Clients</li>
-          <li className="text-sm">Blog</li>
           <li className="text-sm">
             <Link to={"/about-us"}>About Us</Link>
           </li>

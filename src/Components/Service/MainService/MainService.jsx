@@ -89,7 +89,7 @@ export default function MainService() {
           <div className="decoration-div w-24 md:w-36 h-1 rounded-md"></div>
         </div>
         <div className="px-5 md:px-20">
-          <p className="text-sm md:text-lg md:tracking-wider md:leading-10">
+          <p className="text-sm md:text-base md:tracking-wider">
             Elevate your brand&lsquo;s online presence with our comprehensive
             digital marketing solutions. From strategic SEO campaigns to
             engaging social media strategies, we&lsquo;re here to help your
@@ -117,7 +117,7 @@ export default function MainService() {
           </div>
         </div>
         <div className="px-5 md:px-20">
-          <p className="text-sm md:text-lg md:tracking-wider md:leading-10">
+          <p className="text-sm md:text-base md:tracking-wider">
             Our commitment to delivering top-notch services is unwavering,
             ensuring each client receives the utmost quality and honesty
             throughout their digital marketing journey.

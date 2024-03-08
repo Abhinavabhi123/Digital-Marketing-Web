@@ -6,8 +6,10 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa6";
 import FooterBackground from "../../assets/Svg/footer-background.svg"
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
+  const navigate = useNavigate()
   return (
     <div className="w-full min-h-[30rem] bg-black/20">
       {/* Top section */}
@@ -19,47 +21,51 @@ export default function Footer() {
       <div className="w-full h-[80%] bg-transparent flex flex-col md:flex-row md:flex-wrap gap-2 justify-center">
         {/* left section */}
         <div className="w-full md:w-[30%] h-full bg-yellow-400x ">
-          <div className="w-full h-full bg-transparent space-y-3 flex flex-col items-center py-6" data-aos="fade-up">
+          <div className="w-full h-full bg-transparent flex flex-col items-center py-6" data-aos="fade-up">
+            <div className="w-fit h-full bg-transparent space-y-3 ">
             <p className="text-xl font-semibold underline">Services</p>
             <ul className="space-y-2 flex flex-col ">
-              <li className="cursor-pointer text-sm md:text-base">Email Marketing</li>
-              <li className="cursor-pointer text-sm md:text-base">Content Creation</li>
-              <li className="cursor-pointer text-sm md:text-base">SEO</li>
-              <li className="cursor-pointer text-sm md:text-base">Social Media Marketing </li>
-              <li className="cursor-pointer text-sm md:text-base">Advertising</li>
-              <li className="cursor-pointer text-sm md:text-base">Affiliate Marketing</li>
-              <li className="cursor-pointer text-sm md:text-base">Digital Analysis</li>
+              <li className="cursor-pointer text-sm md:text-base" onClick={()=>navigate('/services/seo')}>SEO</li>
+              <li className="cursor-pointer text-sm md:text-base" onClick={()=>navigate('/services/content-marketing')}>Content Creation</li>
+              <li className="cursor-pointer text-sm md:text-base" onClick={()=>navigate('/services/email-marketing')}>Email Marketing</li>
+              <li className="cursor-pointer text-sm md:text-base" onClick={()=>navigate('/services/advertising')}>Advertising</li>
+              <li className="cursor-pointer text-sm md:text-base" onClick={()=>navigate('/services/affiliate-marketing')}>Affiliate Marketing</li>
+              <li className="cursor-pointer text-sm md:text-base" onClick={()=>navigate('/services/social-media')}>Social Media Marketing </li>
+              {/* <li className="cursor-pointer text-sm md:text-base">Digital Analysis</li>
               <li className="cursor-pointer text-sm md:text-base">Video Marketing</li>
-              <li className="cursor-pointer text-sm md:text-base">Influencer Marketing</li>
+              <li className="cursor-pointer text-sm md:text-base">Influencer Marketing</li> */}
             </ul>
+            </div>
           </div>
         </div>
         {/* Middle section */}
         <div className="w-full md:w-[30%] h-full bg-transparent ">
-          <div className="w-full h-full bg-transparent space-y-3 flex flex-col items-center py-6 " data-aos="fade-up">
+          <div className="w-full h-full bg-transparent flex flex-col items-center py-6 " data-aos="fade-up">
+            <div className="w-fit h-full  space-y-3">
             <p className="text-xl font-semibold underline">Locations</p>
-            <ul className="space-y-2 flex flex-col">
+            <ul className="space-y-2 flex flex-col bg-transparent">
               <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">India </p></li>
               <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">UAE</p></li>
               <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Qatar</p></li>
               <li className="flex items-center gap-1 cursor-pointer"><MdLocationPin/><p className="cursor-pointer text-sm md:text-base">Bahrain</p></li>
-            
             </ul>
+            </div>
           </div>
         </div>
         {/* right section */}
         <div className="w-full md:w-[30%] h-full bg-transparent ">
-          <div className="w-full h-full bg-transparent space-y-3 flex flex-col items-center py-6 " data-aos="fade-up">
+          <div className="w-full h-full bg-transparent flex flex-col items-center py-6 " data-aos="fade-up">
+            <div className="w-fit h-full space-y-3">
             <p className="text-xl font-semibold underline">Support</p>
             <ul className="space-y-2 flex flex-col">
               <li className="cursor-pointer text-sm md:text-base">Contact Us</li>
+              <li className="cursor-pointer text-sm md:text-base">Testimonial</li>
+              <li className="cursor-pointer text-sm md:text-base">Portfolio</li>
               <li className="cursor-pointer text-sm md:text-base">Career</li>
               <li className="cursor-pointer text-sm md:text-base">Privacy Policy</li>
               <li className="cursor-pointer text-sm md:text-base">Terms of use</li>
-              <li className="cursor-pointer text-sm md:text-base">Blogs</li>
-              <li className="cursor-pointer text-sm md:text-base">Portfolio</li>
-              <li className="cursor-pointer text-sm md:text-base">Testimonial</li>
             </ul>
+            </div>
           </div>
         </div>
       </div>
