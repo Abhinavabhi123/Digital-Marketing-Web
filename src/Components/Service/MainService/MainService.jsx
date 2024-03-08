@@ -19,6 +19,7 @@ export default function MainService() {
     cssEase: "linear",
     pauseOnHover: true,
     lazyLoad: true,
+    arrows: false,
     appendDots: (dots) => (
       <div
         style={{
@@ -101,9 +102,9 @@ export default function MainService() {
             {serviceData.map((item, i) => (
               <div
                 key={i}
-                // style={{background:"var(--primary-gradient)"}}
-                className="w-full md:size-44  p-5 bg-black/70  flex flex-col justify-center items-center gap-5 rounded-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                className={`w-full md:size-44  p-5 bg-black/70  flex flex-col justify-center items-center gap-5 rounded-lg cursor-pointer hover:scale-105 transition-transform duration-300 hover:shadow-md hover:shadow-red-600`}
                 onClick={() => navigate(`${item.link}`)}
+                data-aos="fade-up"
               >
                 <img
                   src={item.image}

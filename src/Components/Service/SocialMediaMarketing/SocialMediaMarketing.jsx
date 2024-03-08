@@ -9,17 +9,17 @@ export default function SocialMediaMarketing() {
       <div className="w-full min-h-[30rem] bg-transparent flex flex-col md:flex-row">
         <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-20 flex flex-col justify-between items-center space-y-5">
           <div className="text-2xl md:text-5xl font-bold leading-relaxed">
-            <h1 className="leading-snug text-center">
+            <h1 className="leading-snug text-center" data-aos="fade-up">
               Mastering the Art of Social Media Marketing
             </h1>
             {/* <h1 className="leading-relaxed">Email Marketing</h1> */}
           </div>
-          <p className="text-sm md:text-base font-medium text-gray-500 text-center">
+          <p className="text-sm md:text-base font-medium text-gray-500 text-center" data-aos="fade-up">
             Unlock the potential of social media: Drive growth, engage
             audiences, and craft compelling content. This guide arms you with
             strategies to thrive in the dynamic world of social media marketing.
           </p>
-          <div className="flex gap-4 flex-wrap justify-center">
+          <div className="flex gap-4 flex-wrap justify-center" data-aos="fade-right">
             <button className="flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-blue-400 to-purple-500 text-sm md:text-base">
               Explore Platform
               <TiArrowRight />
@@ -34,14 +34,15 @@ export default function SocialMediaMarketing() {
             src={SocialMediaBanner}
             alt="affiliate banner"
             className="size-96"
+            data-aos="fade-left"
           />
         </div>
       </div>
       {/* Grid section */}
       <div className="w-full h-full">
         <div className="flex flex-col items-center gap-5">
-          <h1 className="text-center text-2xl md:text-4xl font-semibold">Your Gateway to Digital Influence</h1>
-          <p className="text-center md:px-36 text-sm text-gray-500 px-10">
+          <h1 className="text-center text-2xl md:text-4xl font-semibold" data-aos="fade-up">Your Gateway to Digital Influence</h1>
+          <p className="text-center md:px-36 text-sm text-gray-500 px-10" data-aos="fade-up">
             Explore the dynamic world of social media marketing and unlock the
             power to captivate audiences, drive engagement, and propel your
             brand to new heights. From strategic content creation to leveraging
@@ -54,7 +55,7 @@ export default function SocialMediaMarketing() {
             <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
                 {
                     SocialData.map((item,i)=>(
-                        <div key={i} className="w-full min-h-56 rounded-lg bg-gradient-to-r from-blue-400/5 to-purple-500/50 p-2 space-y-3">
+                        <div key={i} className="w-full min-h-56 rounded-lg bg-gradient-to-r from-blue-400/5 to-purple-500/50 p-2 space-y-3" data-aos="fade-up">
                             <div className="w-fit h-fit p-3 rounded-full bg-black">
                                 <img src={item.icon} alt="social icon" className="size-8" />
                             </div>

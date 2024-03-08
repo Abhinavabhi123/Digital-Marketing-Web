@@ -24,8 +24,8 @@ import Testimonial from "../assets/Images/Testimonial/testimonial.jpg";
 import Testimonial1 from "../assets/Images/Testimonial/testimonial1.jpg";
 import Testimonial2 from "../assets/Images/Testimonial/testimonial2.jpg";
 import Testimonial3 from "../assets/Images/Testimonial/testimonial3.jpg";
-// import Testimonial4 from "../assets/Images/Testimonial/testimonial4.jpg"
-// import Testimonial5 from "../assets/Images/Testimonial/testimonial5.jpg"
+import Testimonial4 from "../assets/Images/Testimonial/testimonial4.jpg"
+import Testimonial5 from "../assets/Images/Testimonial/testimonial5.jpg"
 
 // todo:Clients import
 import Client1 from "../assets/Images/Clients/Sharjah-Electricity-n-Water-Authority.jpg";
@@ -49,42 +49,42 @@ export const serviceData = [
     image: SEO,
     content:
       "SEO involves optimizing your website to rank higher in search engine results pages (SERPs) for relevant keywords. This is achieved through various techniques like keyword research, content optimization, and link building.",
-    link:"/services/seo"
+    link:"/services/seo",
     },
   {
     title: "Content Marketing",
     image: ContentMarketing,
     content:
       "In Content Marketing, instead of pitching your products or services, you are providing truly relevant and useful content to your prospects and customers to help them to select the suitable one for them.",
-      link:"/services/content-marketing"
+      link:"/services/content-marketing",
     },
   {
     title: "Email Marketing",
     image: Email,
     content:
       "Email marketing involves sending targeted emails to prospects or customers to promote products, share updates, and build relationships. Effective email marketing campaigns often rely on segmentation, personalization, and automation.",
-      link:"/services/email-marketing"
+      link:"/services/email-marketing",
     },
   {
     title: "Advertising",
     image: ADvertisement,
     content:
       "Advertising allows businesses to display ads on search engines or other platforms and pay a fee each time someone.",
-      link:"/services/advertising"
+      link:"/services/advertising",
     },
   {
     title: "Affiliate Marketing",
     image: Affiliate,
     content:
       " Affiliate marketing involves partnering with individuals or other businesses (affiliates) who promote your products or services in exchange for a commission for each sale or lead generated through their efforts.",
-      link:"/services/affiliate-marketing"
+      link:"/services/affiliate-marketing",
     },
   {
     title: "Social Media Marketing",
     image: SocialMedia,
     content:
       "SMM involves using social media platforms like Facebook, Instagram, Twitter, LinkedIn, and others to promote products or services, build brand awareness, and engage with customers.",
-      link:"/services/social-media"
+      link:"/services/social-media",
     },
   // {
   //   title: "Influencer Marketing",
@@ -151,16 +151,16 @@ export const testimonialData = [
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
   },
-  // {
-  //   name:"******",
-  //   image:Testimonial4,
-  //   content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-  // },
-  // {
-  //   name:"******",
-  //   image:Testimonial5,
-  //   content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-  // },
+  {
+    name:"******",
+    image:Testimonial4,
+    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  {
+    name:"******",
+    image:Testimonial5,
+    content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
 ];
 
 // Client promotion data

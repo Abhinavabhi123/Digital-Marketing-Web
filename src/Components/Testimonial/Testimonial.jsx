@@ -1,3 +1,6 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./testimonial.css";
 import { testimonialData } from "../../Constants/constant";
 
@@ -22,6 +25,40 @@ const SliderComponent = (Props) => {
 };
 
 export default function Testimonial() {
+  let settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    cssEase: "linear",
+    pauseOnHover: true,
+    lazyLoad: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1329, // Adjusted breakpoint value
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 992, // Adjusted breakpoint value
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 576, // Adjusted breakpoint value
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
+  
   return (
     <div className="w-full">
       <div className="ps-4 md:ps-20 py-8 space-y-3">
@@ -29,14 +66,18 @@ export default function Testimonial() {
         <div className="decoration-div w-36 md:w-56 h-1 rounded-md"></div>
       </div>
       <div className="card_wrapper w-full md:min-h-[33rem] h-fit bg-transparent pb-5 flex justify-center md:gap-10 items-center flex-wrap">
-        {testimonialData.map((item, i) => (
-          <SliderComponent
-            key={i}
-            image={item.image}
-            content={item.content}
-            name={item.name}
-          />
-        ))}
+        <div className="w-full h-[35rem] bg-transparent ps-8 md:ps-14">
+          <Slider {...settings}  className="bg-transparent w-full h-full flex justify-center items-center">
+            {testimonialData.map((item, i) => (
+              <SliderComponent
+                key={i}
+                image={item.image}
+                content={item.content}
+                name={item.name}
+              />
+            ))}
+          </Slider>
+        </div>
       </div>
     </div>
   );

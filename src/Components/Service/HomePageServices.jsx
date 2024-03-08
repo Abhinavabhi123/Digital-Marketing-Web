@@ -2,8 +2,10 @@ import "./homePageServices.css";
 import Shape from "../../assets/shape.svg";
 import { serviceData } from "../../Constants/constant";
 import Rainbow from "../../assets/Svg/rainbow.svg";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePageServices() {
+  const navigate = useNavigate();
   return (
     <div className="w-full min-h-[40rem] bg-transparent relative overflow-hidden ">
       <img
@@ -43,15 +45,26 @@ export default function HomePageServices() {
           {serviceData.map((item, i) => (
             <div
               key={i}
-              className="w-full h-[23rem] md:h-96 bg-black rounded-lg shadow-lg  shadow-gray-700  overflow-hidden space-y-4"
+              className="w-full h-[23rem] md:h-96 bg-black rounded-lg shadow-lg  shadow-gray-700  overflow-hidden space-y-4 relative"
               data-aos="fade-up"
             >
               <div className="space-y-4 bg-gradient-to-r from-blue-500 to-purple-400 p-3">
-                <img src={item.image} alt="icon" className="size-10 animate-bounce  " />
+                <img
+                  src={item.image}
+                  alt="icon"
+                  className="size-10 animate-pulse  "
+                />
                 <p className="text-sm md:text-lg">{item.title}</p>
               </div>
               <div className="p-3">
                 <p className="text-xs md:text-base">{item.content}</p>
+              </div>
+              <div className="flex justify-center w-full bg-transparent absolute bottom-5">
+                <button onClick={() => navigate(`${item.link}`)}
+                className="px-3 py-1 rounded-2xl bg-yellow-400/70 text-sm hover:text-base transition-all duration-500"
+                >
+                  Learn more
+                </button>
               </div>
             </div>
           ))}

@@ -6,14 +6,14 @@ export default function ContentMarketing() {
     <div className="w-full h-full">
       {/* Banner section */}
       <div className="w-full min-h-[30rem] bg-transparent flex flex-col justify-center items-center gap-10">
-        <h1 className="text-2xl md:text-5xl font-bold text-center tracking-wider leading-snug">
+        <h1 className="text-2xl md:text-5xl font-bold text-center tracking-wider leading-snug" data-aos="fade-up">
           Content marketing solution &<br /> idea of your business
         </h1>
-        <p className="text-sm md:text-xl text-center px-5 md:px-0">
+        <p className="text-sm md:text-xl text-center px-5 md:px-0" data-aos="fade-up">
           Sacrosys is a content marketing solution that <br /> tracks the
           effectiveness of your blog,
         </p>
-        <div className="flex gap-4 flex-wrap justify-center">
+        <div className="flex gap-4 flex-wrap justify-center" data-aos="fade-right">
           <button className="flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-blue-400 to-purple-500 text-sm md:text-base">
             Explore Platform
             <TiArrowRight />
@@ -26,14 +26,14 @@ export default function ContentMarketing() {
       {/* Middle section */}
       <div className="w-full h-full">
         <div className="flex flex-col items-center gap-6">
-          <h1 className="text-2xl md:text-4xl font-semibold">Key features</h1>
-          <p className="text-sm md:text-xl text-center text-gray-500 px-5">
+          <h1 className="text-2xl md:text-4xl font-semibold" data-aos="fade-up">Key features</h1>
+          <p className="text-sm md:text-xl text-center text-gray-500 px-5" data-aos="fade-up">
             Sacrosys has quickly become the go-to content marketing <br />{" "}
             solution for over 600 clients around the world
           </p>
         </div>
         <div className="w-full min-h-[40rem] flex justify-center items-center p-2 md:px-20">
-          <div className="w-full h-full bg-gray-900 rounded-2xl">
+          <div className="w-full h-full bg-gray-900 rounded-2xl" data-aos="fade-up">
             <div className=" w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 md:p-10">
               {contentMarketingData.map((item, i) => (
                 <div key={i} className="bg-transparent w-full h-full p-3 space-y-5">
