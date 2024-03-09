@@ -1,17 +1,19 @@
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import ClientBanner from "../../assets/Images/Clients/client-banner.avif";
 import { clientData } from "../../Constants/constant";
+import { useNavigate } from "react-router-dom";
 
 export default function OurClient() {
+    const navigate = useNavigate()
   return (
     <div className="w-full h-full">
       {/* Banner section */}
       <div className="w-full min-h-[30rem] bg-transparent flex flex-col md:flex-row">
         <div className="w-full h-full md:w-1/2 bg-transparent p-10 md:p-20 space-y-5">
-          <h1 className="text-2xl  md:text-4xl font-semibold" data-aos="fade-up">
+          <h1 className="text-2xl  md:text-4xl font-semibold text-center" data-aos="fade-up">
             Meet Our Clients
           </h1>
-          <p className="text-gray-500 text-sm md:text-base" data-aos="fade-up"  data-aos-delay="50">
+          <p className="text-gray-500 text-sm md:text-base text-center" data-aos="fade-up"  data-aos-delay="50">
             Sacrosys&apos;s international marketing collective serves as your
             dedicated marketing partner. Our diverse and skilled team of experts
             offers the insights and expertise necessary to navigate and thrive
@@ -22,8 +24,8 @@ export default function OurClient() {
             brand&apos;s presence globally, our team is poised to collaborate
             with yours.
           </p>
-          <div>
-            <button className="px-3 py-2 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex justify-center items-center gap-3" data-aos="fade-right">
+          <div className="flex justify-center">
+            <button className="px-3 py-2 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex justify-center items-center gap-3" data-aos="fade-right" onClick={()=>navigate("/contact-us")}>
               Contact Us
               <MdOutlineArrowRightAlt size={25} />
             </button>

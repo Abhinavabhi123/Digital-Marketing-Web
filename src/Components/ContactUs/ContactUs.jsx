@@ -49,7 +49,7 @@ export default function ContactUs() {
         <div>
           <h1 className="text-2xl md:text-4xl font-semibold">CONTACT US</h1>
         </div>
-        <div className="relative overflow-hidden"> 
+        <div className="relative "> 
             <img src={Blob} alt="blob" className="absolute -right-20 opacity-50 w-1/2 -bottom-10  " />
           <form className="space-y-4 relative" onSubmit={handleSubmit} >
             <div className="flex flex-col space-y-2">
