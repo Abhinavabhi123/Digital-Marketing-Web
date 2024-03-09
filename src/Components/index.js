@@ -8,6 +8,7 @@ export {default as ExperienceCounter} from "./Experience/ExperienceCounter";
 
 export {default as AboutMain} from "./AboutUs/AboutMain";
 export {default as Footer} from "./Footer/Footer";
+export {default as HomePagePortFolio} from "./PortFolio/Heromain";
 export {default as Portfolio} from "./PortFolio/PortFolio";
 export {default as Testimonial} from "./Testimonial/Testimonial";
 export {default as AboutDigitalMarketing} from "./About/DigitalMarketing/DigitalMarketing";

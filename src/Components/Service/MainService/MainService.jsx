@@ -4,9 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { serviceBannerData, serviceData } from "../../../Constants/constant";
 import { useNavigate } from "react-router-dom";
 
-
 export default function MainService() {
-
   const navigate = useNavigate();
   var settings = {
     dots: true,
@@ -37,49 +35,16 @@ export default function MainService() {
   return (
     <>
       <div className="w-full h-full mb-7">
-        <Slider {...settings} className="w-full h-[20rem] md:h-[30rem] ">
-          <div className="w-full h-[20rem] md:h-[30rem]">
-            <img
-              src={serviceBannerData[0].image}
-              alt="banner image"
-              className="w-full h-full object-cover banner-Images"
-            />
-          </div>
-          <div className="w-full h-[20rem] md:h-[30rem]">
-            <img
-              src={serviceBannerData[1].image}
-              alt="banner image"
-              className="w-full h-full object-cover banner-Images"
-            />
-          </div>
-          <div className="w-full h-[20rem] md:h-[30rem]">
-            <img
-              src={serviceBannerData[2].image}
-              alt="banner image"
-              className="w-full h-full object-cover banner-Images"
-            />
-          </div>
-          <div className="w-full h-[20rem] md:h-[30rem]">
-            <img
-              src={serviceBannerData[3].image}
-              alt="banner image"
-              className="w-full h-full object-cover banner-Images"
-            />
-          </div>
-          <div className="w-full h-[20rem] md:h-[30rem]">
-            <img
-              src={serviceBannerData[4].image}
-              alt="banner image"
-              className="w-full h-full object-cover banner-Images"
-            />
-          </div>
-          <div className="w-full h-[20rem] md:h-[30rem]">
-            <img
-              src={serviceBannerData[5].image}
-              alt="banner image"
-              className="w-full h-full object-cover banner-Images"
-            />
-          </div>
+        <Slider {...settings} className="w-full h-[30rem] md:h-[40rem] ">
+          {serviceBannerData.map((item, i) => (
+            <div key={i} className="w-full h-[30rem] md:h-[40rem]">
+              <img
+                src={item.image}
+                alt="banner image"
+                className="w-full h-full object-cover banner-Images scale-90"
+              />
+            </div>
+          ))}
         </Slider>
         {/* Service Details */}
       </div>

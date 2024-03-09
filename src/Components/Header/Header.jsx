@@ -68,7 +68,7 @@ export default function Header() {
             </ul>
           </div>
         </li>
-        <li className="nav-link">Awards</li>
+        {/* <li className="nav-link">Awards</li> */}
         <li className="nav-link">
           <Link to={"/portfolio"}>PortFolio</Link>
         </li>

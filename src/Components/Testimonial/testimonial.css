@@ -13,7 +13,7 @@
 }
 
 .text-card:hover{
-    transition: all 5s;
+    transition: height 0.5s ease; 
     height: 24rem;
 }
 .text-card .imgBx{

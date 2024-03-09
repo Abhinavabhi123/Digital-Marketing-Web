@@ -30,10 +30,10 @@ import Testimonial5 from "../assets/Images/Testimonial/testimonial5.jpg"
 
 // todo:- Service banner images
 import Banner1 from "../assets/Images/Services/SEO-banner.avif";
-import Banner2 from "../assets/Images/Services/content-marketing-banner.avif";
+import Banner2 from "../assets/Images/Services/connect.jpg";
 import Banner3 from "../assets/Images/Services/email-marketing-banner.avif";
 import Banner4 from "../assets/Images/Services/advertising--banner.avif";
-import Banner5 from "../assets/Images/Services/affiliate-marketing-banner.jpg";
+import Banner5 from "../assets/Images/Services/affiliate-marketing-banner.avif";
 import Banner6 from "../assets/Images/Services/social-media-marketing-banner.avif";
 
 // todo: home page services detail card data

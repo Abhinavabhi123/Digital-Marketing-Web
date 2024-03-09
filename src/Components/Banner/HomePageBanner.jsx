@@ -2,7 +2,7 @@ import "./banner.css";
 import {
   FaInstagram,
   FaFacebookF,
-  FaTwitter,
+  FaXTwitter,
   FaLinkedinIn,
   FaTiktok,
 } from "react-icons/fa6";
@@ -28,7 +28,7 @@ export default function HomePageBanner() {
             <div className="size-10 group/twitter  gap-1 flex flex-col-reverse md:flex-row justify-end items-center">
               <div className="w-[5px] h-0 hidden md:block  rounded-md group-hover/twitter:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
               <div className="w-0 h-[5px] md:hidden rounded-md group-hover/twitter:w-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
-              <FaTwitter className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              <FaXTwitter className="cursor-pointer text-xl md:text-3xl social_media_icon" />
             </div>
             <div className="size-10 group/linked  gap-1 flex flex-col-reverse md:flex-row justify-end items-center">
               <div className="w-[5px] h-0 hidden md:block  rounded-md group-hover/linked:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
