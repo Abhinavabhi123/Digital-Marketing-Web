@@ -72,7 +72,9 @@ export default function Header() {
         <li className="nav-link">
           <Link to={"/portfolio"}>PortFolio</Link>
         </li>
-        <li className="nav-link">Clients</li>
+        <li className="nav-link">
+          <Link to={"/our-clients"}>Clients</Link>
+        </li>
         <li className="nav-link">
           <Link to={"/about-us"}>About Us</Link>
         </li>
@@ -156,7 +158,9 @@ export default function Header() {
           <li className="text-sm">
             <Link to={"/portfolio"}>PortFolio</Link>
           </li>
-          <li className="text-sm">Clients</li>
+          <li className="text-sm">
+            <Link to={"/our-clients"}>Clients</Link>
+          </li>
           <li className="text-sm">
             <Link to={"/about-us"}>About Us</Link>
           </li>

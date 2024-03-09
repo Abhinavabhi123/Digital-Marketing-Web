@@ -25,3 +25,4 @@ export {default as SocialMediaMarketing} from "./Service/SocialMediaMarketing/So
 
 // Contact us
 export {default as ContactUs} from "./ContactUs/ContactUs";
+export {default as OurClient} from "./OurClients/OurClient";

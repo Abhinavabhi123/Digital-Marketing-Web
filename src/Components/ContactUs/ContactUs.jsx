@@ -4,6 +4,7 @@ import { MdMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
 import ContactBanner from "../../assets/Images/ContactUs/contact-us-banner.webp";
+import Blob from "../../assets/Svg/ContactUs/blob.svg";
 
 export default function ContactUs() {
   const initialValues = {
@@ -48,8 +49,9 @@ export default function ContactUs() {
         <div>
           <h1 className="text-2xl md:text-4xl font-semibold">CONTACT US</h1>
         </div>
-        <div>
-          <form className="space-y-4" onSubmit={handleSubmit}>
+        <div className="relative overflow-hidden"> 
+            <img src={Blob} alt="blob" className="absolute -right-20 opacity-50 w-1/2 -bottom-10  " />
+          <form className="space-y-4 relative" onSubmit={handleSubmit} >
             <div className="flex flex-col space-y-2">
               <label htmlFor="name" className="text-sm">
                 Full Name <span>*</span>
@@ -114,10 +116,10 @@ export default function ContactUs() {
               </div>
               <div className="flex flex-col space-y-2 w-full md:w-1/2">
                 <label htmlFor="phone" className="text-sm">
-                  Phone <span>*</span>
+                  Phone 
                 </label>
                 <input
-                  type="tel" // Change type to "tel" for better support
+                  type="tel" 
                   id="phone"
                   name="phone"
                   placeholder="Enter your phone number"

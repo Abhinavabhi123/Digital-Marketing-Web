@@ -12,3 +12,4 @@ export {default as AffiliateMarketingPage} from "./ServicePages/AffiliateMarketi
 export {default as SocialMediaPage} from "./ServicePages/SocialMediaPage";
 export {default as PortFolioPage} from "./PortFolioPage";
 export {default as ContactUsPage} from "./ContactUsPage"; 
+export {default as OurClientPage} from "./OurClientPage";

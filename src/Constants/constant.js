@@ -27,13 +27,7 @@ import Testimonial3 from "../assets/Images/Testimonial/testimonial3.jpg";
 import Testimonial4 from "../assets/Images/Testimonial/testimonial4.jpg"
 import Testimonial5 from "../assets/Images/Testimonial/testimonial5.jpg"
 
-// todo:Clients import
-import Client1 from "../assets/Images/Clients/Sharjah-Electricity-n-Water-Authority.jpg";
-import Client2 from "../assets/Images/Clients/RTA-Dubai.jpg";
-import Client3 from "../assets/Images/Clients/nissan-logo.png";
-import Client4 from "../assets/Images/Clients/watani-logo.jpg";
-import Client5 from "../assets/Images/Clients/emirates-logo.png";
-import Client6 from "../assets/Images/Clients/Air-Arabia-logo.png";
+
 // todo:- Service banner images
 import Banner1 from "../assets/Images/Services/SEO-banner.avif";
 import Banner2 from "../assets/Images/Services/content-marketing-banner.avif";
@@ -164,24 +158,43 @@ export const testimonialData = [
 ];
 
 // Client promotion data
+// todo:Clients import
+import Client1 from "../assets/Images/Clients/Sharjah-Electricity-n-Water-Authority.jpg";
+import Client2 from "../assets/Images/Clients/RTA-Dubai.jpg";
+import Client3 from "../assets/Images/Clients/nissan-logo.png";
+import Client4 from "../assets/Images/Clients/watani-logo.jpg";
+import Client5 from "../assets/Images/Clients/emirates-logo.png";
+import Client6 from "../assets/Images/Clients/Air-Arabia-logo.png";
 export const clientData = [
   {
     image: Client1,
+    title:"Sharjah Electricity and Water Authority",
+    content:"Sharjah Electricity and Water Authority, a beacon of innovation and reliability in powering the future of Sharjah with sustainable energy solutions."
   },
   {
     image: Client2,
+    title:"RTA-Dubai",
+    content:"RTA-Dubai stands as a beacon of innovation, seamlessly weaving the fabric of transportation infrastructure and urban development, propelling Dubai into the future with unmatched efficiency and sophistication."
   },
   {
     image: Client3,
+    title:"Nissan",
+    content:"Nissan embodies the relentless pursuit of innovation, seamlessly merging cutting-edge technology with timeless craftsmanship to redefine automotive excellence."
   },
   {
     image: Client4,
+    title:"Watani",
+    content:"Watani stands as a beacon of innovation and progress, forging paths towards a brighter future with unwavering dedication and visionary leadership."
   },
   {
     image: Client5,
+    title:"Emirates",
+    content:"Emirates, an emblem of opulence and innovation, seamlessly marries luxury with excellence, transcending borders to redefine the art of travel."
   },
   {
     image: Client6,
+    title:"Air Arabia",
+    content:"Air Arabia, the epitome of seamless travel experience, where every journey is a symphony of comfort, efficiency, and unparalleled service, soaring beyond horizons to redefine the essence of aviation excellence."
   },
 ];
 
