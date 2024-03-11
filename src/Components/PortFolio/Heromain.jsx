@@ -50,7 +50,7 @@ const cards = [
 
 const Example = () => {
   return (
-    <div>
+    <div className="relative">
       <HorizontalScrollCarousel />
     </div>
   );
@@ -75,8 +75,11 @@ const HorizontalScrollCarousel = () => {
     ["1%", isLastCardVisible ? "0%" : "-95%"]
   );
 
+  // Dynamically calculate the height of the section based on viewport size
+  const sectionHeight = `${cards.length * 1200}vh`;
+
   return (
-    <section ref={targetRef} className="relative h-[300vh] bg-neutral-950">
+    <section ref={targetRef} className={`relative h-${sectionHeight} bg-slate-950`}>
       <LampDemo />
       {!isLastCardVisible && (
         <h1 className="text-white font-body font-semibold text-4xl pt-10 sticky top-0 left-0 text-left  pl-28  h-5">

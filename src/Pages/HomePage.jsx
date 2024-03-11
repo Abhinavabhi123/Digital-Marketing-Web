@@ -8,7 +8,7 @@ import {
   HomePageBanner,
   HomePageServices,
   Testimonial,
-  // HomePagePortFolio,
+  HomePagePortFolio,
 } from "../Components";
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
       <HomePageServices />
       <AboutDigitalMarketing/>
       <ExperienceCounter />
-      {/* <HomePagePortFolio /> */}
+      <HomePagePortFolio />
       <Testimonial />
       <ContactFooter />
       <Footer />

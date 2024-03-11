@@ -3,7 +3,7 @@ import "./portFolio.css";
 
 export default function PortFolio() {
   return (
-    <div className="App w-full">
+    <div className="App w-full relative bg-slate-950">
       {/* banner section */}
       <div className="w-full min-h-[30rem] p-10 md:p-20">
         <div className="space-y-5">
