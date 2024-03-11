@@ -29,8 +29,13 @@
     object-fit: contain;
     border-radius: 12px;
 }
-.text-card:hover .imgBx{
+/* .text-card:hover .imgBx{
     top: -70px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0,0.2);
+} */
+.text-card:hover .imgBx{
+    top: 0px;
     scale: 0.75;
     box-shadow: 0 15px 45px rgba(0, 0, 0,0.2);
 }
@@ -52,9 +57,13 @@
 }
 
 .text-card:hover .content{
-    top: 90px;
+    top: 120px;
     height: 250px;
 }
+/* .text-card:hover .content{
+    top: 90px;
+    height: 250px;
+} */
 
 .card_wrapper .text-card .content a{
     padding: 0.5rem 1rem;
