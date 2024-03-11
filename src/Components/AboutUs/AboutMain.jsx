@@ -37,7 +37,7 @@ export default function AboutBanner() {
         />
         <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 md:px-20 md:space-y-4 ">
           <p
-            className="text-sm md:text-lg tracking-wide md:leading-7"
+            className="text-sm md:text-base tracking-wide md:leading-7"
             data-aos="fade-up"
           >
             <b>Sacrosys</b> has been a leading software development, cyber
@@ -48,7 +48,7 @@ export default function AboutBanner() {
             digital landscape.
           </p>
           <p
-            className="text-sm md:text-lg tracking-wide md:leading-7"
+            className="text-sm md:text-base tracking-wide md:leading-7"
             data-aos="fade-up"
           >
             At Sacrosys, we strive to understand changing customer needs, and
@@ -59,7 +59,7 @@ export default function AboutBanner() {
             Technology.
           </p>
           <p
-            className="text-sm md:text-lg tracking-wide md:leading-7"
+            className="text-sm md:text-base tracking-wide md:leading-7"
             data-aos="fade-up"
           >
             Our end-to-end expertise and experience in managing the projects
@@ -89,7 +89,7 @@ export default function AboutBanner() {
           </div>
           <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 ">
             <p
-              className="text-sm md:text-lg tracking-wide md:leading-7 relative"
+              className="text-sm md:text-base tracking-wide md:leading-7 relative"
               data-aos="fade-up"
             >
               Sacrosys is committed to revolutionizing the tech industry by
@@ -111,7 +111,7 @@ export default function AboutBanner() {
         <div className="w-full h-[80%] bg-transparent flex flex-col md:flex-row">
           <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 md:px-20">
             <p
-              className="text-sm md:text-lg tracking-wide md:leading-7"
+              className="text-sm md:text-base tracking-wide md:leading-7"
               data-aos="fade-up"
             >
               Pioneering customized software solutions, Sacrosys envisions
@@ -142,7 +142,7 @@ export default function AboutBanner() {
           </div>
           <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-8 ">
             <p
-              className="text-sm md:text-lg tracking-wide md:leading-7 relative"
+              className="text-sm md:text-base tracking-wide md:leading-7 relative"
               data-aos="fade-up"
             >
               Empowering businesses with tailored software and cutting-edge
