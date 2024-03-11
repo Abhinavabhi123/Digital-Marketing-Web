@@ -2,7 +2,7 @@ import GoogleMapReact  from "google-map-react";
 
 export default function GoogleMap() {
   return (
-    <div className="w-full h-full md:h-[20rem] bg-slate-900/80 flex flex-col md:flex-row ">
+    <div className="w-full h-full min-h-[20rem] bg-slate-900/80 flex flex-col md:flex-row ">
       <div className="w-full h-full md:w-1/2 md:p-20 p-10">
         <h3 className="text-xl font-semibold">Our Address</h3>
         <p>Sacrosys Technologies</p>
