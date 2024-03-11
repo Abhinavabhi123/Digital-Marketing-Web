@@ -2,9 +2,10 @@ import "./header.css";
 import Logo from "../../assets/logo.svg";
 import { useState } from "react";
 import { RiArrowDownSLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate()
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdown, setDropDown] = useState([
     {
@@ -23,14 +24,14 @@ export default function Header() {
 
   return (
     <div className="w-full h-full flex items-center justify-between px-4 md:px-10 py-5 relative bg-transparent">
-      <img src={Logo} alt="logo" className="w-32 md:w-28" />
+      <img src={Logo} alt="logo" className="w-32 md:w-28 cursor-pointer" onClick={()=>navigate("/")} />
       <ul className="nav-list text-base gap-5">
         <li className="nav-link">
           <Link to={"/"}>Home</Link>
         </li>
         <li className="nav-link group relative bg-transparent">
           <Link to={"/services"}>
-            <a>Services</a>
+            <p>Services</p>
           </Link>
           <div className="absolute w-fit h-fit top-[1rem] z-50 pt-4 bg-transparent hidden  group-hover:block hover:block">
             <ul className="nav-animation w-56 h-fit service-list  hidden  group-hover:block bg-black/70 z-50 py-3 top-[1.8rem]">
@@ -68,7 +69,6 @@ export default function Header() {
             </ul>
           </div>
         </li>
-        {/* <li className="nav-link">Awards</li> */}
         <li className="nav-link">
           <Link to={"/portfolio"}>PortFolio</Link>
         </li>
@@ -154,7 +154,6 @@ export default function Header() {
               </Link>
             </li>
           </ul>
-          <li className="text-sm">Awards</li>
           <li className="text-sm">
             <Link to={"/portfolio"}>PortFolio</Link>
           </li>

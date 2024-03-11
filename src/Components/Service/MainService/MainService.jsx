@@ -67,7 +67,7 @@ export default function MainService() {
             {serviceData.map((item, i) => (
               <div
                 key={i}
-                className={`w-full md:size-44  p-5 bg-black/70  flex flex-col justify-center items-center gap-5 rounded-lg cursor-pointer hover:scale-105 transition-transform duration-300 hover:shadow-md hover:shadow-red-600`}
+                className={`w-full md:size-44  p-5 bg-black/70  flex flex-col justify-center items-center gap-5 rounded-lg cursor-pointer hover:scale-105 transition-all duration-300 hover:shadow-md hover:shadow-violet-600`}
                 onClick={() => navigate(`${item.link}`)}
                 data-aos="fade-up"
               >

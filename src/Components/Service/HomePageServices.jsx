@@ -41,27 +41,30 @@ export default function HomePageServices() {
           </div>
         </div>
         {/* Card Section */}
-        <div className="w-full h-full md:w-2/3 bg-transparent grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-5 p-4">
+        <div className="w-full h-full md:w-2/3 bg-transparent grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-5 p-4">
           {serviceData.map((item, i) => (
             <div
               key={i}
-              className="w-full h-[23rem] md:h-96 bg-black rounded-lg shadow-lg  shadow-gray-700  overflow-hidden space-y-4 relative"
+              className="w-full h-fit md:min-h-96 bg-black rounded-lg shadow-lg  shadow-gray-700 flex flex-col justify-between  overflow-hidden space-y-4 relative pb-5"
               data-aos="fade-up"
             >
-              <div className="space-y-4 bg-gradient-to-r from-blue-500 to-purple-400 p-3">
-                <img
-                  src={item.image}
-                  alt="icon"
-                  className="size-10 animate-pulse  "
-                />
-                <p className="text-sm md:text-lg">{item.title}</p>
+              <div>
+                <div className="space-y-4 bg-gradient-to-r from-blue-500 to-purple-400 p-3">
+                  <img
+                    src={item.image}
+                    alt="icon"
+                    className="size-10 animate-pulse  "
+                  />
+                  <p className="text-sm md:text-lg">{item.title}</p>
+                </div>
+                <div className="p-3">
+                  <p className="text-xs md:text-sm">{item.content}</p>
+                </div>
               </div>
-              <div className="p-3">
-                <p className="text-xs md:text-base">{item.content}</p>
-              </div>
-              <div className="flex justify-center w-full bg-transparent absolute bottom-5">
-                <button onClick={() => navigate(`${item.link}`)}
-                className="px-3 py-1 rounded-2xl bg-yellow-400/70 text-sm hover:text-base transition-all duration-500"
+              <div className="flex justify-center w-full bg-transparent">
+                <button
+                  onClick={() => navigate(`${item.link}`)}
+                  className="px-3 py-1 rounded-2xl bg-yellow-400/70 text-sm hover:text-base transition-all duration-500"
                 >
                   Learn more
                 </button>

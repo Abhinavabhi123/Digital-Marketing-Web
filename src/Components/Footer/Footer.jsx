@@ -64,9 +64,6 @@ export default function Footer() {
                 >
                   Social Media Marketing{" "}
                 </li>
-                {/* <li className="cursor-pointer text-sm md:text-base">Digital Analysis</li>
-              <li className="cursor-pointer text-sm md:text-base">Video Marketing</li>
-              <li className="cursor-pointer text-sm md:text-base">Influencer Marketing</li> */}
               </ul>
             </div>
           </div>
@@ -120,7 +117,6 @@ export default function Footer() {
                 <li className="cursor-pointer text-sm md:text-base">
                   <Link to={"/portfolio"}>Portfolio</Link>
                 </li>
-                <li className="cursor-pointer text-sm md:text-base">Career</li>
                 <li className="cursor-pointer text-sm md:text-base">
                   Privacy Policy
                 </li>

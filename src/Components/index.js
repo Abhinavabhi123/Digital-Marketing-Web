@@ -27,3 +27,6 @@ export {default as SocialMediaMarketing} from "./Service/SocialMediaMarketing/So
 // Contact us
 export {default as ContactUs} from "./ContactUs/ContactUs";
 export {default as OurClient} from "./OurClients/OurClient";
+
+// Map integration
+export {default as GoogleMap} from "./Map/GoogleMap";
