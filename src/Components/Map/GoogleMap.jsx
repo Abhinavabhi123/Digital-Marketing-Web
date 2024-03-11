@@ -1,5 +1,4 @@
 import GoogleMapReact  from "google-map-react";
-console.log(import.meta.env.VITE_REACT_MAP_API,"opp");
 
 export default function GoogleMap() {
   return (
@@ -11,11 +10,11 @@ export default function GoogleMap() {
           PB No. 41755, Saleha Khalifa Bldg, Al Muteena, Diera, Dubai, United
           Arab
         </p>
-        <p>Emirates Phone: +971 50 8493100, +971 52 99 77 626 e-mail:</p>
-        <p>info@sacrosys.com</p>
+        <p>Emirates Phone: +971 50 8493100, +971 52 99 77 626</p>
+        <p> e-mail : info@sacrosys.com</p>
       </div>
       <div className="w-full h-full md:w-1/2 md:p-20 p-10">
-        <div className="w-[96] h-full rounded-lg">
+        <div className="w-[96] h-56 rounded-lg">
           <GoogleMapReact
             bootstrapURLKeys={{
               key: import.meta.env.VITE_REACT_MAP_API,
