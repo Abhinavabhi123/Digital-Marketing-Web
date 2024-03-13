@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const PinContainer = (Props) => {
+
   const {
     children,
     title,
@@ -21,7 +22,7 @@ const PinContainer = (Props) => {
 
   return (
     <div
-      className={`relative group/pin z-30  cursor-pointer ${containerClassName}`}
+      className={`relative group/pin z-30 scale-75 cursor-pointer ${containerClassName}`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >

@@ -7,7 +7,7 @@ import { testimonialData } from "../../Constants/constant";
 const SliderComponent = (Props) => {
   const { image, content, name } = Props;
   return (
-    <div className="text-card mt-20 md:mt-0" data-aos="fade-left">
+    <div className="text-card mt-20 md:mt-0">
       <div className="imgBx w-56 h-10">
         <img
           src={image}
@@ -65,9 +65,9 @@ export default function Testimonial() {
         <h1 className="text-lg md:text-3xl service-title">Testimonials</h1>
         <div className="decoration-div w-36 md:w-56 h-1 rounded-md"></div>
       </div>
-      <div className="card_wrapper w-full md:min-h-[33rem] h-fit bg-transparent pb-5 flex justify-center md:gap-10 items-center flex-wrap ">
-        <div className="w-full relative h-[35rem] bg-transparent ps-8 md:px-14 flex justify-center items-center  overflow-visible">
-          <Slider {...settings}  className="bg-transparent relative z-0  w-full h-fit md:h-fit overflow-clip">
+      <div className="card_wrapper w-full md:min-h-[30rem] h-fit bg-transparent pb-5 flex justify-center md:gap-10 items-center flex-wrap ">
+        <div className="w-full relative md:h-[30rem] bg-transparent ps-8 md:px-14 flex justify-center items-center  overflow-visible">
+          <Slider {...settings}  className="bg-transparent relative z-0  w-full h-fit md:h-full overflow-clip">
             {testimonialData.map((item, i) => (
               <SliderComponent
                 key={i}

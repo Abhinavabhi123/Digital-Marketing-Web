@@ -1,9 +1,8 @@
 import Heromain from "./Heromain";
-import "./portFolio.css";
 
 export default function PortFolio() {
   return (
-    <div className="App w-full relative bg-slate-950">
+    <div className=" w-full h-full bg-slate-950">
       {/* banner section */}
       <div className="w-full min-h-[30rem] p-10 md:p-20">
         <div className="space-y-5">
@@ -24,7 +23,9 @@ export default function PortFolio() {
           </p>
         </div>
       </div>
+      <div className="w-full h-full">
       <Heromain />
+      </div>
     </div>
   );
 }
