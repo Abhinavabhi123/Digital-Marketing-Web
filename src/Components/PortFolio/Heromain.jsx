@@ -3,63 +3,8 @@ import LampDemo from "./lamp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { cards } from "../../Constants/constant";
 
-import img1 from "../../assets/Images/Portfolio/image 1.jpg";
-import img2 from "../../assets/Images/Portfolio/image 2.jpg";
-import img3 from "../../assets/Images/Portfolio/image 3.jpg";
-import img4 from "../../assets/Images/Portfolio/image 4.jpg";
-import img5 from "../../assets/Images/Portfolio/image 5.jpg";
-import img6 from "../../assets/Images/Portfolio/image 6.jpg";
-import img7 from "../../assets/Images/Portfolio/image 7.jpg";
-import img8 from "../../assets/Images/Portfolio/image 8.jpg";
-import img9 from "../../assets/Images/Portfolio/image 9.jpg";
-const cards = [
-  {
-    url: img1,
-    title: "Title 1",
-    id: 1,
-  },
-  {
-    url: img2,
-    title: "Title 2",
-    id: 2,
-  },
-  {
-    url: img3,
-    title: "Title 3",
-    id: 3,
-  },
-  {
-    url: img4,
-    title: "Title 4",
-    id: 4,
-  },
-  {
-    url: img5,
-    title: "Title 5",
-    id: 5,
-  },
-  {
-    url: img6,
-    title: "Title 6",
-    id: 6,
-  },
-  {
-    url: img7,
-    title: "Title 7",
-    id: 7,
-  },
-  {
-    url: img8,
-    title: "Title 8",
-    id: 8,
-  },
-  {
-    url: img9,
-    title: "Title 9",
-    id: 9,
-  },
-];
 
 const Example = () => {
   return (

@@ -21,7 +21,6 @@ export default function ContactFooter() {
         <div className="social-media-content size-10 md:size-12 flex justify-center items-center rounded-full bg-yellow-500 cursor-pointer">
             <AiOutlineMessage size={25}/>
         </div>
-
     </div>
   )
 }
