@@ -104,9 +104,9 @@ const HorizontalScrollCarousel = () => {
     ],
   };
   return (
-    <section className="relative w-full h-full bg-slate-950  flex flex-col space-y-6 md:space-y-20 mt-10 md:mt-0 md:mb-20">
+    <section className="relative w-full h-full bg-slate-950  flex flex-col  mt-10 md:mt-0 md:mb-20">
       <div>
-        <div className="ps-4 md:ps-20 py-8 space-y-3">
+        <div className="ps-4 md:ps-20  space-y-3">
           <h1 className="text-lg md:text-3xl service-title">Portfolio</h1>
           <div className="decoration-div w-36 md:w-36 h-1 rounded-md"></div>
         </div>
@@ -115,7 +115,7 @@ const HorizontalScrollCarousel = () => {
         <LampDemo />
       </div>
 
-      <div className="relative w-full flex h-full items-center overflow- ">
+      <div className="relative w-full flex h-full items-center overflow-hidden mt-20">
         <div className="flex gap-6 w-full h-full">
           <Slider {...settings} className="w-full h-full bg-transparent">
             {cards.map((card) => {

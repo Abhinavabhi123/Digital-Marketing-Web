@@ -18,30 +18,17 @@ export default function MainService() {
     pauseOnHover: true,
     lazyLoad: true,
     arrows: false,
-    appendDots: (dots) => (
-      <div
-        style={{
-          backgroundColor: "#E1F0DA",
-          opacity: "50%",
-          // borderRadius: "10px",
-          color: "#fff",
-          marginTop: "10px",
-        }}
-      >
-        <ul style={{ marginTop: "0px" }}> {dots} </ul>
-      </div>
-    ),
   };
   return (
     <>
       <div className="w-full h-full mb-7">
-        <Slider {...settings} className="w-full h-[30rem] md:h-[40rem] ">
+        <Slider {...settings} className="w-full h-[20rem] md:h-[30rem] ">
           {serviceBannerData.map((item, i) => (
-            <div key={i} className="w-full h-[30rem] md:h-[40rem]">
+            <div key={i} className="w-full h-[20rem] md:h-[30rem]">
               <img
                 src={item.image}
                 alt="banner image"
-                className="w-full h-full object-cover banner-Images scale-90"
+                className="w-full h-full object-cover banner-Images scale-90 rounded-2xl"
               />
             </div>
           ))}

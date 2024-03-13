@@ -60,13 +60,13 @@ export default function Testimonial() {
   };
   
   return (
-    <div className="w-full" id="testimonial">
+    <div className="w-full" id="testimonial md:mb-10">
       <div className="ps-4 md:ps-20 py-8 space-y-3">
         <h1 className="text-lg md:text-3xl service-title">Testimonials</h1>
         <div className="decoration-div w-36 md:w-56 h-1 rounded-md"></div>
       </div>
-      <div className="card_wrapper w-full md:min-h-[30rem] h-fit bg-transparent pb-5 flex justify-center md:gap-10 items-center flex-wrap ">
-        <div className="w-full relative md:h-[30rem] bg-transparent ps-8 md:px-14 flex justify-center items-center  overflow-visible">
+      <div className="card_wrapper w-full  h-fit bg-transparent pb-5 flex justify-center md:gap-10 items-center flex-wrap ">
+        <div className="w-full relative h-fit bg-transparent ps-8 md:px-14 flex justify-center items-center  overflow-visible">
           <Slider {...settings}  className="bg-transparent relative z-0  w-full h-fit md:h-full overflow-clip">
             {testimonialData.map((item, i) => (
               <SliderComponent
