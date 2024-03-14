@@ -1,8 +1,10 @@
 import "./homePageAbout.css";
 import DigitalMarketingImage from "../../assets/Images/digital-marketing-about-image.jpg";
 import Shapes from "../../assets/shape.svg";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePageAbout() {
+  const navigate = useNavigate()
   return (
     <div className="w-full min-h-[40rem] bg-transparent overflow-hidden" id="home-about">
       <div className="ps-4 md:ps-20 py-8 space-y-3">
@@ -36,6 +38,7 @@ export default function HomePageAbout() {
               className="md:text-xl px-5 py-1 rounded-full about-navigation-btn"
               data-aos="fade-up-right"
               data-aos-delay="50"
+              onClick={()=>navigate("/about-us")}
             >
               About us
             </button>
