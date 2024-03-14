@@ -49,7 +49,7 @@ export default function PortFolio() {
           <img
             src={details.url}
             alt="person image"
-            className="w-full min-w-36 md:w-fit h-full md:h-[30rem] object-contain rounded-lg ring-2"
+            className="w-full min-w-36 md:w-[20rem] h-full object-contain rounded-lg ring-2"
           />
         </div>
       </div>
