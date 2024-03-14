@@ -75,8 +75,8 @@ export default function PortFolio() {
                 alt="image"
                 className="w-full h-full object-contain "
               />
-              <div className="absolute w-14 h-14 bg-black/50 rounded-full bottom-5 left-5 rotate-90 ring-1 -translate-x-1/2 flex justify-center items-center cursor-pointer " onClick={removeImage}>
-                <MdOutlineKeyboardDoubleArrowDown size={30} className=" opacity-55" />
+              <div className="absolute w-10 h-10 bg-black/50 rounded-full bottom-5 left-5 rotate-90 ring-1 -translate-x-1/2 flex justify-center items-center cursor-pointer " onClick={removeImage}>
+                <MdOutlineKeyboardDoubleArrowDown size={20} className=" opacity-55" />
               </div>
             </div>
           )}
