@@ -12,7 +12,7 @@ export default function PortFolio() {
   return (
     <div className=" w-full h-full bg-slate-950 md:pb-20">
       {/* banner section */}
-      <div className="w-full min-h-[30rem] p-10 md:p-20" id="portfolio-details">
+      <div className="w-full h-full px-10 md:px-20 pb-10" id="portfolio-details">
         <div className="space-y-5">
           <div
             className="text-center text-2xl md:text-5xl font-bold md:space-y-5"
@@ -38,7 +38,7 @@ export default function PortFolio() {
         </div>
       </div>
       {/* details section */}
-      <div className="w-full h-full  bg-transparent flex flex-col md:flex-row px-10 md:px-20 pt-10 md:pt-0">
+      <div className="w-full h-full  bg-transparent flex flex-col md:flex-row px-10 md:px-20">
         <div className="md:p-5 w-full h-full md:w-1/2 space-y-5">
           <h1 className="text-xl font-medium">{details.title}</h1>
           <p className="text-sm leading-5 tracking-wider">
