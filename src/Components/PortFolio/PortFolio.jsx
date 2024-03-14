@@ -1,28 +1,34 @@
 import { useParams } from "react-router-dom";
 import { cards } from "../../Constants/constant";
 import { useEffect, useState } from "react";
+import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 
 export default function PortFolio() {
   const { id } = useParams();
   const [details, setDetails] = useState({});
-  const [images,setImages] = useState([])
+  const [images, setImages] = useState([]);
+  const [selectedImages, setSelectedImages] = useState("");
   useEffect(() => {
     const data = cards.find((item) => item.id === parseInt(id));
     setDetails(data || {});
-    // const image=[];
-    console.log(data.images);
     const image = data.images.map((path, index) => ({
       id: index + 1,
-      path: path
+      path: path,
     }));
-    setImages(image)
-
+    setImages(image);
   }, [id]);
-console.log(images,"images");
+
+  function removeImage(){
+    setSelectedImages("")
+  }
+
   return (
     <div className=" w-full h-full bg-slate-950 md:pb-20">
       {/* banner section */}
-      <div className="w-full h-full px-10 md:px-20 pb-10" id="portfolio-details">
+      <div
+        className="w-full h-full px-10 md:px-20 pb-10"
+        id="portfolio-details"
+      >
         <div className="space-y-5">
           <div
             className="text-center text-2xl md:text-5xl font-bold md:space-y-5"
@@ -51,20 +57,44 @@ console.log(images,"images");
       <div className="w-full h-full  bg-transparent  px-10 md:px-20 space-y-5 pb-10">
         <div>
           <h1 className="text-center text-2xl font-medium">{details.title}</h1>
-          <p className="text-sm leading-6 tracking-wider indent-8">{details.content}</p>
+          <p className="text-sm leading-6 tracking-wider indent-8">
+            {details.content}
+          </p>
         </div>
         <div className="w-full h-96">
-          <img src={details.url} alt="image" className="w-full h-full object-contain" />
+          {!selectedImages ? (
+            <img
+              src={details.url}
+              alt="image"
+              className="w-full h-full object-contain"
+            />
+          ) : (
+            <div className="relative w-full h-full">
+              <img
+                src={selectedImages}
+                alt="image"
+                className="w-full h-full object-contain "
+              />
+              <div className="absolute w-14 h-14 bg-black/50 rounded-full bottom-5 left-5 rotate-90 ring-1 -translate-x-1/2 flex justify-center items-center cursor-pointer " onClick={removeImage}>
+                <MdOutlineKeyboardDoubleArrowDown size={30} className=" opacity-55" />
+              </div>
+            </div>
+          )}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-3">
-          {
-            images.map((item,i)=>(
-              <div key={i} className="w-full h-40 bg-transparent  overflow-hidden relative">
-                <img src={item.path} alt="image" className="w-full mx-auto max-w-80 md:max-w-full h-full object-cover transition-all duration-500 hover:scale-110" />
-              </div>
-            ))
-          }
-
+          {images.map((item, i) => (
+            <div
+              key={i}
+              className="w-full h-40 bg-transparent  overflow-hidden relative cursor-pointer"
+              onClick={() => setSelectedImages(item.path)}
+            >
+              <img
+                src={item.path}
+                alt="image"
+                className="w-full mx-auto max-w-80 md:max-w-full h-full object-cover transition-all duration-500 hover:scale-110"
+              />
+            </div>
+          ))}
         </div>
       </div>
 
