@@ -5,10 +5,20 @@ import { useEffect, useState } from "react";
 export default function PortFolio() {
   const { id } = useParams();
   const [details, setDetails] = useState({});
+  const [images,setImages] = useState([])
   useEffect(() => {
     const data = cards.find((item) => item.id === parseInt(id));
     setDetails(data || {});
+    // const image=[];
+    console.log(data.images);
+    const image = data.images.map((path, index) => ({
+      id: index + 1,
+      path: path
+    }));
+    setImages(image)
+
   }, [id]);
+console.log(images,"images");
   return (
     <div className=" w-full h-full bg-slate-950 md:pb-20">
       {/* banner section */}
@@ -38,19 +48,23 @@ export default function PortFolio() {
         </div>
       </div>
       {/* details section */}
-      <div className="w-full h-full  bg-transparent flex flex-col md:flex-row px-10 md:px-20">
-        <div className="md:p-5 w-full h-full md:w-1/2 space-y-5">
-          <h1 className="text-xl font-medium">{details.title}</h1>
-          <p className="text-sm leading-5 tracking-wider">
-            {details.content}
-          </p>
+      <div className="w-full h-full  bg-transparent  px-10 md:px-20 space-y-5 pb-10">
+        <div>
+          <h1 className="text-center text-2xl font-medium">{details.title}</h1>
+          <p className="text-sm leading-6 tracking-wider indent-8">{details.content}</p>
         </div>
-        <div className="w-full h-full md:w-1/2 p-10 md:p-20 flex justify-center items-center">
-          <img
-            src={details.url}
-            alt="person image"
-            className="w-full min-w-36 md:w-[20rem] h-full object-contain rounded-lg ring-2"
-          />
+        <div className="w-full h-96">
+          <img src={details.url} alt="image" className="w-full h-full object-contain" />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-3">
+          {
+            images.map((item,i)=>(
+              <div key={i} className="w-full h-40 bg-transparent  overflow-hidden relative">
+                <img src={item.path} alt="image" className="w-full mx-auto max-w-80 md:max-w-full h-full object-cover transition-all duration-500 hover:scale-110" />
+              </div>
+            ))
+          }
+
         </div>
       </div>
 

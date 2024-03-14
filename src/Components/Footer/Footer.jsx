@@ -137,11 +137,42 @@ export default function Footer() {
         </p>
       </div>
       <div className="flex justify-center gap-6 py-4">
-        <FaInstagram className="cursor-pointer" />
-        <FaXTwitter className="cursor-pointer" />
-        <FaFacebookF className="cursor-pointer" />
-        <FaLinkedinIn className="cursor-pointer" />
-        <FaTiktok className="cursor-pointer" />
+        <a
+          href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="cursor-pointer" />
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61556926785314&mibextid=LQQJ4d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <FaFacebookF className="cursor-pointer" />
+        </a>
+        <a
+          href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaXTwitter className="cursor-pointer" />
+        </a>
+        <a
+          href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedinIn className="cursor-pointer" />
+        </a>
+        <a
+          href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTiktok className="cursor-pointer" />
+        </a>
       </div>
       <div className="flex justify-center">
         <img src={FooterBackground} alt="image" className="h-12" />

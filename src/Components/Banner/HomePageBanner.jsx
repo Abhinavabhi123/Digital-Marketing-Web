@@ -17,28 +17,60 @@ export default function HomePageBanner() {
             <div className="size-10 group/instagram  gap-1 flex flex-col-reverse md:flex-row justify-end items-center">
               <div className="w-[5px] hidden md:block h-0 rounded-md group-hover/instagram:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
               <div className="w-0 md:hidden h-[5px] rounded-md group-hover/instagram:w-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
-              <FaInstagram className="cursor-pointer  text-xl md:text-3xl social_media_icon relative" />
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="cursor-pointer  text-xl md:text-3xl social_media_icon relative" />
+              </a>
             </div>
             <div className="size-10 group/facebook  gap-1 flex flex-col-reverse md:flex-row justify-end items-center">
               <div className="w-[5px] h-0 hidden md:block  rounded-md group-hover/facebook:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
               <div className="w-0 h-[5px] md:hidden rounded-md group-hover/facebook:w-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
-              <FaFacebookF className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              <a
+                href="https://www.facebook.com/profile.php?id=61556926785314&mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookF className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              </a>
             </div>
 
             <div className="size-10 group/twitter  gap-1 flex flex-col-reverse md:flex-row justify-end items-center">
               <div className="w-[5px] h-0 hidden md:block  rounded-md group-hover/twitter:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
               <div className="w-0 h-[5px] md:hidden rounded-md group-hover/twitter:w-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
-              <FaXTwitter className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaXTwitter className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              </a>
             </div>
             <div className="size-10 group/linked  gap-1 flex flex-col-reverse md:flex-row justify-end items-center">
               <div className="w-[5px] h-0 hidden md:block  rounded-md group-hover/linked:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
               <div className="w-0 h-[5px] md:hidden rounded-md group-hover/linked:w-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
-              <FaLinkedinIn className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              </a>
             </div>
             <div className="size-10 group/tik  gap-1 flex flex-col-reverse md:flex-row justify-end items-center">
               <div className="w-[5px] h-0 hidden md:block  rounded-md group-hover/tik:h-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
               <div className="w-0 h-[5px] md:hidden rounded-md group-hover/tik:w-full transition-all duration-500 bg-gradient-to-t from-purple-500 to-blue-500"></div>
-              <FaTiktok className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1w59zng3ldye0&utm_content=u109uni"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaTiktok className="cursor-pointer text-xl md:text-3xl social_media_icon" />
+              </a>
             </div>
             <a href="#home-about" className=" flex justify-center items-center">
               <img

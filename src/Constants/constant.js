@@ -593,6 +593,13 @@ import img6 from "../assets/Images/Portfolio/image 6.jpg";
 import img7 from "../assets/Images/Portfolio/image 7.jpg";
 import img8 from "../assets/Images/Portfolio/image 8.jpg";
 import img9 from "../assets/Images/Portfolio/image 9.jpg";
+// immer images
+
+import image1 from "../assets/Images/Portfolio/inner image/image 1.jpg"
+import image2 from "../assets/Images/Portfolio/inner image/image 2.jpg"
+import image3 from "../assets/Images/Portfolio/inner image/image 3.jpg"
+import image4 from "../assets/Images/Portfolio/inner image/image 4.jpg"
+import image5 from "../assets/Images/Portfolio/inner image/image 5.jpg"
 
 
 export const cards = [
@@ -602,61 +609,70 @@ export const cards = [
     id: 1,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+    images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img2,
     title: "Emma",
     id: 2,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img3,
     title: "Olivia",
     id: 3,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img4,
     title: "Lucas",
     id: 4,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img5,
     title: "Benjamin",
     id: 5,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img6,
     title: "Alexander",
     id: 6,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img7,
     title: "William",
     id: 7,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img8,
     title: "Liam",
     id: 8,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
   {
     url: img9,
     title: "Noah",
     id: 9,
     content:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur accusantium reprehenderit nihil laudantium modi vero maxime, ab praesentium voluptate laboriosam repudiandae quia nisi blanditiis nesciunt quae eaque! Magnam nobis quod optio? Nisi cum, sunt voluptate velit, reiciendis ipsa quae omnis, sit fuga similique quidem! Repudiandae perferendis, adipisci distinctio saepe recusandae possimus cum minus. Earum repellat qui harum deserunt eveniet quas commodi a maxime dolorum quaerat iure placeat quos assumenda quam vitae, ad labore asperiores aliquam corrupti perferendis quia possimus aut tenetur? Beatae ullam esse repellat aut, laboriosam voluptas dicta quae delectus dolorem neque alias fuga ut natus dolore adipisci molestiae vitae facere, harum, fugiat accusamus eligendi aperiam. Iure sint ex libero quaerat explicabo in delectus nihil, voluptates repellendus eius assumenda, dolorum ipsa qui exercitationem eum, beatae perferendis a similique. Illo, adipisci saepe labore qui incidunt fugit possimus quae asperiores reiciendis consectetur quia consequatur minima aperiam praesentium beatae sint. Repellat saepe incidunt accusantium? Quam, magni nostrum! Omnis officiis, illo repellat fugiat nulla dolor fugit repellendus. Magni libero error maiores minima aliquid assumenda amet, neque ratione. Ex vitae eaque, veniam aliquam repellat, omnis sunt libero maiores suscipit voluptatem dignissimos tempora eveniet quibusdam dicta.",
-  },
+      images:[image1,image2,image3,image4,image5],
+    },
 ];
