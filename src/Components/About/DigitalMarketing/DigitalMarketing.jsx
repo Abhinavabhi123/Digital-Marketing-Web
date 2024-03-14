@@ -18,8 +18,8 @@ export default function DigitalMarketing() {
           they can to keep up, which can be said true for the rest of human
           society. To do this effectively, you have to take advantage of all the
           most valuable marketing resources and technologies, and in the modern
-          world, the internet tops that list. One of the most import- ant
-          reasons why digital marketing is taking up the traditional market- ing
+          world, the internet tops that list. One of the most important
+          reasons why digital marketing is taking up the traditional marketing
           channels is as a result of the internet has enabled businesses to
           interact with targeted audiences in real time.
         </p>

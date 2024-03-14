@@ -10,9 +10,9 @@ export default function UserRoute() {
       <Route path="/" element={<HomePage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/services/*" element={<ServiceRoutes/>}/>
-      <Route path="/portfolio" element={<PortFolioPage/>}/>
       <Route path="/contact-us" element={<ContactUsPage/>}/>
       <Route path="/our-clients" element={<OurClientPage/>}/>
+      <Route path="/portfolio/:id" element={<PortFolioPage/>}/>
     </Routes>
   );
 }

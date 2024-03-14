@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { cards } from "../../Constants/constant";
+import { useNavigate } from "react-router-dom";
 
 
 const Example = () => {
@@ -75,11 +76,13 @@ const HorizontalScrollCarousel = () => {
 
 const Card = (Props) => {
   const { card } = Props;
+  const navigate = useNavigate()
   return (
     <PinContainer>
       <div
         key={card.id}
         className="group relative   h-[350px] w-[250px] overflow-hidden bg-neutral-200 md:p-20"
+        onClick={()=>navigate(`/portfolio/${card.id}`)}
       >
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110 w-full h-full">
           <img

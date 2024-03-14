@@ -70,9 +70,6 @@ export default function Header() {
           </div>
         </li>
         <li className="nav-link">
-          <Link to={"/portfolio"}>PortFolio</Link>
-        </li>
-        <li className="nav-link">
           <Link to={"/our-clients"}>Clients</Link>
         </li>
         <li className="nav-link">
@@ -154,9 +151,6 @@ export default function Header() {
               </Link>
             </li>
           </ul>
-          <li className="text-sm">
-            <Link to={"/portfolio"}>PortFolio</Link>
-          </li>
           <li className="text-sm">
             <Link to={"/our-clients"}>Clients</Link>
           </li>
