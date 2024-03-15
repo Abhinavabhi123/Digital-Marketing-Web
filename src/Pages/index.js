@@ -16,3 +16,5 @@ export {default as OurClientPage} from "./UserPages/OurClientPage";
 
 // todo: Admin Pages
 export {default as AdminLoginPage} from "./AdminPages/AdminLoginPage";
+export {default as DashboardPage} from "./AdminPages/DashboardPage";
+export {default as EnquiryPage} from "./AdminPages/EnquiryPage";

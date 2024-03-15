@@ -7,6 +7,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 import { FaChevronDown } from "react-icons/fa";
+import { LuFileScan } from "react-icons/lu";
 
 
 export default function Sidebar(Props) {
@@ -83,7 +84,7 @@ export default function Sidebar(Props) {
         !isOpen ? "md:w-20 " : "md:w-[15%] md:min-w-[200px]"
       } w-full md:rounded-r-lg rounded-b-lg ${
         menuOpen ? "h-fit transition-color duration-300" : "h-14"
-      }  md:h-[100%] transition-all  z-10  md:duration-200 fixed md:top-20 left-0 bg-[#75CFC0]`}
+      }  md:h-[100%] transition-all  z-10  md:duration-200 fixed md:top-20 left-0 bg-[#8E7AB5]/70`}
     >
       {/* :h-[40.6rem] */}
       {/* Toggle setup laptop*/}
@@ -124,6 +125,12 @@ export default function Sidebar(Props) {
             icon={<LuLayoutDashboard size={20} className="list_icon" />}
             title="Dashboard"
             path="dashboard"
+          />
+          <List
+            url={"enquiries"}
+            icon={<LuFileScan size={20} className="list_icon" />}
+            title="Enquiries"
+            path="enquiries"
           />
         <div
           className="w-full flex items-center  gap-2 p-5  cursor-pointer"
