@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 import { adminLoginData } from "../../../Constants/adminData";
 import { useState } from "react";
+import AdminBlob from "../../../assets/admin-blob.svg"
 
 export default function Login() {
     const [error,setError] = useState("")
@@ -38,8 +39,10 @@ export default function Login() {
     }
   );
   return (
-    <div className="w-full h-[100vh] flex justify-center items-center">
+    <div className="w-full h-[100vh] flex justify-center items-center relative">
       <div className="w-[80%] h-[80%] bg-black/50 rounded-2xl flex flex-col md:flex-row overflow-hidden relative">
+      <img src={AdminBlob} alt="blob" className="absolute w-1/5 -bottom-24 -left-16 -rotate-45" />
+      <img src={AdminBlob} alt="blob" className="absolute w-1/5 -top-14 -right-16 -rotate-45" />
         <div className="w-full h-full md:w-1/2 bg-transparent p-5 md:p-20 space-y-5 md:space-y-20 md:border-r md:border-b-0 border-b border-violet-400">
           <h1 className="text-start md:text-end text-xl md:text-3xl">
             Hey Admin,{" "}
@@ -96,7 +99,7 @@ export default function Login() {
             <div className="flex justify-center items-center">
               <button
                 type="submit"
-                className="px-4 py-1 bg-purple-500 rounded-md"
+                className="px-4 py-1 bg-[#008EE6] rounded-md"
               >
                 Login
               </button>
