@@ -12,6 +12,12 @@ import { fetchData } from "../../../utils/enquiry";
 import CircularProgress from "@mui/material/CircularProgress";
 import { IoClose } from "react-icons/io5";
 import { enquiryData } from "../../../Constants/adminData";
+import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
+import { SiMicrosoftexcel } from "react-icons/si";
+import jsPDF from "jspdf";
+import autoTable from "jspdf-autotable";
+import { downloadExcel } from "react-export-table-to-excel";
+
 
 const columns = [
   { id: "si", label: "#", minWidth: 10, align: "center" },
@@ -44,8 +50,8 @@ export default function Enquiry() {
   const [rowsPerPage, setRowsPerPage] = useState(10);
   const [orderBy, setOrderBy] = useState("");
   const [order, setOrder] = useState("asc");
-  const [total, setTotal] = useState("");
-  const [search,setSearch]=useState("");
+  const [total, setTotal] = useState(0);
+  const [search, setSearch] = useState("");
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -88,7 +94,48 @@ export default function Enquiry() {
     inputRef.current.value = "";
     handleSearch({ target: { value: "" } });
   }
-  
+  // generating pdf
+  const header=[
+    "Si_no",
+    "Name",
+    "Subject",
+    "Email",
+    "Phone",
+    "Message"
+  ]
+  function generatePdf() {
+    const doc = new jsPDF();
+    function toArray() {
+      const array = [];
+      data.map((item) => {
+        let values = [];
+        for (const value in item) {
+          values.push(item[value]);
+        }
+        array.push(values);
+        values = [];
+      });
+      return array;
+    }
+    autoTable(doc, {
+      head: [header],
+      body: toArray(),
+      theme: "grid",
+    });
+    doc.save("enquiries.pdf");
+  }
+  function generateExcel() {
+    downloadExcel({
+      fileName: "Enquiries",
+      sheet: "react-export-table-to-excel",
+      tablePayload: {
+        header,
+        body: data,
+        className: "font-medium",
+      },
+    });
+  }
+
 
   return (
     <div className="w-full h-full">
@@ -96,6 +143,16 @@ export default function Enquiry() {
         <h1 className="text-3xl font-medium">Enquiries</h1>
       </div>
       <div className="px-4 w-full h-full">
+        <div className="flex justify-end">
+          <div className="flex gap-3">
+            <button className="flex items-center gap-2 px-2 py-1 text-sm rounded-md ring-2" onClick={generatePdf}>
+              Export <BsFillFileEarmarkPdfFill color="red"/>
+            </button>
+            <button className="flex items-center gap-2 px-2 py-1 text-sm rounded-md ring-2" onClick={generateExcel}>
+              Export <SiMicrosoftexcel color="green"/>
+            </button>
+          </div>
+        </div>
         <div className="flex justify-end my-2">
           <div className="rounded-md ring-2 bg-white flex items-center px-2">
             <input
@@ -105,8 +162,11 @@ export default function Enquiry() {
               ref={inputRef}
               onChange={handleSearch}
             />
-            <button onClick={resetSearch} className={`cursor-pointer ${search ? "block" : "hidden"}`}>
-              <IoClose size={20} color="gray"/>
+            <button
+              onClick={resetSearch}
+              className={`cursor-pointer ${search ? "block" : "hidden"}`}
+            >
+              <IoClose size={20} color="gray" />
             </button>
           </div>
         </div>

@@ -84,7 +84,7 @@ export default function Sidebar(Props) {
         !isOpen ? "md:w-20 " : "md:w-[15%] md:min-w-[200px]"
       } w-full md:rounded-r-lg rounded-b-lg ${
         menuOpen ? "h-fit transition-color duration-300" : "h-14"
-      }  md:h-[100%] transition-all  z-10  md:duration-200 fixed md:top-20 left-0 bg-[#8E7AB5]/70`}
+      }  md:h-[100%] transition-all  z-10  md:duration-200 fixed md:top-20 left-0 bg-[#8E7AB5]`}
     >
       {/* :h-[40.6rem] */}
       {/* Toggle setup laptop*/}
