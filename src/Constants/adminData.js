@@ -6,6 +6,7 @@ export const adminLoginData={
 // Enquiry details 
 export const enquiryData = [
     {
+        si:"1",
         name: "John Doe",
         subject: "Inquiry about product",
         email: "john@example.com",
@@ -13,6 +14,7 @@ export const enquiryData = [
         message: "I'm interested in learning more about your product."
     },
     {
+        si:"2",
         name: "Alice Smith",
         subject: "Feedback on service",
         email: "alice@example.com",
@@ -20,6 +22,7 @@ export const enquiryData = [
         message: "I wanted to provide feedback on the recent service I received."
     },
     {
+        si:"3",
         name: "Bob Johnson",
         subject: "Request for quote",
         email: "bob@example.com",
@@ -27,6 +30,7 @@ export const enquiryData = [
         message: "Could you provide a quote for your services?"
     },
     {
+        si:"4",
         name: "Emma Brown",
         subject: "Collaboration proposal",
         email: "emma@example.com",
@@ -34,6 +38,7 @@ export const enquiryData = [
         message: "I'm reaching out to discuss a potential collaboration opportunity."
     },
     {
+        si:"5",
         name: "Michael Davis",
         subject: "Technical support",
         email: "michael@example.com",
@@ -41,6 +46,7 @@ export const enquiryData = [
         message: "I'm experiencing issues with your product and need technical support."
     },
     {
+        si:"6",
         name: "John Doe",
         subject: "Inquiry about product",
         email: "john@example.com",
@@ -48,6 +54,7 @@ export const enquiryData = [
         message: "I'm interested in learning more about your product."
     },
     {
+        si:"7",
         name: "Alice Smith",
         subject: "Feedback on service",
         email: "alice@example.com",
@@ -55,6 +62,7 @@ export const enquiryData = [
         message: "I wanted to provide feedback on the recent service I received."
     },
     {
+        si:"8",
         name: "Bob Johnson",
         subject: "Request for quote",
         email: "bob@example.com",
@@ -62,6 +70,7 @@ export const enquiryData = [
         message: "Could you provide a quote for your services?"
     },
     {
+        si:"9",
         name: "Emma Brown",
         subject: "Collaboration proposal",
         email: "emma@example.com",
@@ -69,6 +78,7 @@ export const enquiryData = [
         message: "I'm reaching out to discuss a potential collaboration opportunity."
     },
     {
+        si:"10",
         name: "Michael Davis",
         subject: "Technical support",
         email: "michael@example.com",
